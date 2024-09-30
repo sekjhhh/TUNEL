@@ -19,4 +19,4 @@ Disallow:
 User-agent: *
 Disallow:
 
-https://dishub.ppid.semarangkota.go.id/cgi-bin/x.xml
+https://dishub.ppid.semarangkota.go.id/cgi-bin/sitemap.xml
