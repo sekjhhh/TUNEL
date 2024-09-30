@@ -19,4 +19,4 @@ Disallow:
 User-agent: *
 Disallow:
 
-Sitemap: https://www.jdih.pa-fakfak.go.id/sitemap.xml
+Sitemap: https://fiki.politeknikpalu.ac.id/img/x.xml
