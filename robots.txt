@@ -19,4 +19,4 @@ Disallow:
 User-agent: *
 Disallow:
 
-Sitemap: https://fiki.politeknikpalu.ac.id/img/x.xml
+Sitemap: https://fiki.politeknikpalu.ac.id/img/sitemap.xml
