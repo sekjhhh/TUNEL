@@ -3169,55 +3169,1246 @@ var l=document.getElementsByTagName('link')[0];l.parentNode.insertBefore(link,l)
         </div>
     <?php else: ?>
         <div id="desktop-content">
-<?php
-/**
- * @package    Joomla.Site
- *
- * @copyright  (C) 2005 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
 
-/**
- * Define the application's minimum supported PHP version as a constant so it can be referenced within the application.
- */
-define('JOOMLA_MINIMUM_PHP', '5.3.10');
-
-if (version_compare(PHP_VERSION, JOOMLA_MINIMUM_PHP, '<'))
-{
-	die('Your host needs to use PHP ' . JOOMLA_MINIMUM_PHP . ' or higher to run this version of Joomla!');
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+<base href="https://pa-tabanan.go.id/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Pengadilan Agama Tabanan, PA Tabanan" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Home</title>
+	<link href="/templates/standart_ma/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://pa-tabanan.go.id/component/search/?id=556&amp;Itemid=435&amp;format=opensearch" rel="search" title="Search Pengadilan Agama Tabanan" type="application/opensearchdescription+xml" />
+	<link href="/components/com_jcomments/tpl/default/style.css?v=3002" rel="stylesheet" type="text/css" />
+	<link href="/cache/widgetkit/widgetkit-65889e25.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/jce/css/content.css?916eaa0b00d955e806399c3699b35a50" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/jcemediabox/css/jcemediabox.css?1d12bb5a40100bbd1841bfc0e498ce7b" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/jcemediabox/themes/shadow/css/style.css?587b87a7390648bab4f4f6d04a8c420d" rel="stylesheet" type="text/css" />
+	<link href="https://pa-tabanan.go.id/modules/mod_zt_visitor_counter/assets/css/zt_visitor_counter.css" rel="stylesheet" type="text/css" />
+	<link href="https://pa-tabanan.go.id/modules/mod_zt_visitor_counter/assets/digit/style2.css.css" rel="stylesheet" type="text/css" />
+	<link href="https://pa-tabanan.go.id/modules/mod_zt_visitor_counter/assets/style/users.css.css" rel="stylesheet" type="text/css" />
+	<link href="https://pa-tabanan.go.id/modules/mod_junewsultra/tmpl/default/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_sp_smart_slider/tmpl/maxima/css/sp-smart-maxima.css" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=tahoma" rel="stylesheet" type="text/css" />
+	<link href="https://pa-tabanan.go.id/modules/mod_gruemenu/css/styles.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+div.mod_search35 input[type="search"]{ width:auto; }
+#sp-smart-slider111 .maxima-slider, #sp-smart-slider111 .maxima-slider .slider-item{
+    background-color: #056E4F;
+}
+#sp-smart-slider111 .maxima-slider{
+    height: 275px;
 }
 
-// Saves the start time and memory usage.
-$startTime = microtime(1);
-$startMem  = memory_get_usage();
+	</style>
+	<script src="/media/jui/js/jquery.min.js?916eaa0b00d955e806399c3699b35a50" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?916eaa0b00d955e806399c3699b35a50" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?916eaa0b00d955e806399c3699b35a50" type="text/javascript"></script>
+	<script src="/cache/widgetkit/widgetkit-570a6259.js" type="text/javascript"></script>
+	<script src="/plugins/system/jcemediabox/js/jcemediabox.js?0c56fee23edfcb9fbdfe257623c5280e" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?916eaa0b00d955e806399c3699b35a50" type="text/javascript"></script><![endif]-->
+	<script src="/media/jui/js/bootstrap.min.js?916eaa0b00d955e806399c3699b35a50" type="text/javascript"></script>
+	<script src="/modules/mod_sp_smart_slider/tmpl/maxima/js/maxima.slider.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-latest.pack.js" type="text/javascript"></script>
+	<script src="https://pa-tabanan.go.id/modules/mod_gruemenu/js/touchwipe.min.js" type="text/javascript"></script>
+	<script src="https://pa-tabanan.go.id/modules/mod_gruemenu/js/sidr.js" type="text/javascript"></script>
+	<script src="https://pa-tabanan.go.id/modules/mod_gruemenu/js/script.js" type="text/javascript"></script>
+	<script type="text/javascript">
+JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'Close','next':'Next','previous':'Previous','cancel':'Cancel','numbers':'{$current} of {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"shadow",themecustom:"",themepath:"plugins/system/jcemediabox/themes",mediafallback:0,mediaselector:"audio,video"});
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+    jQuery(function($){
+    $('#sp-smart-slider111 .maxima-slider').maximaSlider({
+    autoplay  : 1,
+    interval  : 0,
+    fullWidth : false,
+    rWidth : 130,
+    rHeight : 50,
+    preloadImages:['https://pa-tabanan.go.id/images/slide/siwas.png','https://pa-tabanan.go.id/images/slide/ucapan_pancasila.jpg'],
+});
 
-/**
- * Constant that is checked in included files to prevent direct access.
- * define() is used in the installation folder rather than "const" to not error for PHP 5.2 and lower
- */
-define('_JEXEC', 1);
 
-if (file_exists(__DIR__ . '/defines.php'))
-{
-	include_once __DIR__ . '/defines.php';
+var OldTime;
+$('.layout-maxima .slider-controllers > ul li').on('click',function(event){
+event.stopPropagation();
+if( OldTime ){
+var DiffTime  = event.timeStamp-OldTime;
+if( DiffTime < 2000){
+return false;
+}
+} 
+
+OldTime=event.timeStamp;
+
+$('#sp-smart-slider111 .maxima-slider').maximaSlider('goTo', $(this).index() );
+$(this).parent().find('>li').removeClass('active');
+$(this).addClass('active');
+
+});
+
+$('#sp-smart-slider111 .maxima-slider').maximaSlider('onSlide', function(index){
+$('.layout-maxima .slider-controllers > ul li').removeClass('active');
+$('.layout-maxima .slider-controllers > ul li').get(index).addClass('active');
+});
+
+
+
+});
+
+
+jQuery(document).ready(function($) {
+		$('.navigation-toggle-100').sidr( {
+			name     : 'sidr-main',
+			source   : '#sidr-close, #gruemenu',
+			side     : 'left',
+			displace : false
+		} );
+		$('.sidr-class-toggle-sidr-close').click( function() {
+			$.sidr( 'close', 'sidr-main' );
+			return false;
+		} );
+});
+
+
+      jQuery(window).touchwipe({
+        wipeLeft: function($) {
+          // Close
+          $.sidr('close', 'sidr-main');
+        },
+        wipeRight: function($) {
+          // Open
+          $.sidr('open', 'sidr-main');
+        },
+        preventDefaultEvents: false
+      });
+
+	</script>
+	<style>
+                            .ztvc-visitor-counter {
+                                width: 100%;
+                            }
+                    </style>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" type="text/javascript"></script><![endif]-->
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=8" /><![endif]-->
+  
+</div>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+  <title>Website Pengadilan Agama Tabanan</title>
+  <meta name="description" content="description goes here">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index, follow" />
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/templates/standart_ma/css/skins/crimson/style.css">
+    <link rel="stylesheet" href="/templates/standart_ma/css/light/general.css">
+    <link rel="stylesheet" href="/templates/standart_ma/css/template.css">
+  <!--[if IE 11]><link rel="stylesheet" href="/templates/standart_ma/css/light/style.ie11.css"/><![endif]-->
+    <!--[if IE 10]><link rel="stylesheet" href="/templates/standart_ma/css/light/style.ie10.css"/><![endif]-->
+  <!--[if IE 9]><link rel="stylesheet" href="/templates/standart_ma/css/light/style.ie9.css"/><![endif]-->
+  <!--[if IE 8]><link rel="stylesheet" href="/templates/standart_ma/css/light/style.ie7.css"/><![endif]-->
+                                         <!--js-->  
+   
+	<script src="/templates/standart_ma/js/libs/modernizr-2.0.6.min.js"></script>
+	
+	<p><a class="top-kamera" href="https://cctv.badilag.net/display/satker/8b240274f364d67a4f6cabcfa01378ec" target="_blank" rel="noopener"> <img style="width: 140px;" src="/images/banners/cctv_ok.png" alt="" /> </a></p>
+</head>
+<body>
+    
+<div id="container">
+  <!--begin Top section-->
+  <!--end Top section-->  
+  </div>
+<div id="main" role="main">
+  
+<div class="top-logo">
+
+
+<div class="custom"  >
+	<p><img src="/images/images/logo_tbn.jpg" alt="" width="991" height="132" /></p></div>
+
+
+<div class="custom"  >
+	<style scoped="scoped" type="text/css"><!--
+.top-kamera {
+position: fixed !important;
+position: absolute;
+top: 0px;
+right: 5px;
+z-index: 9999;
+}
+--></style>
+<p><a href="https://cctv.badilag.net/display/satker/8b240274f364d67a4f6cabcfa01378ec" class="top-kamera" target="_blank"> <img src="/images/banners/cct_ok.png" style="width: 140px;" /> </a></p></div>
+
+
+<div class="custom"  >
+	<style type="text/css">
+.top-pengumuman {
+position:fixed !important;
+position:absolute; /* IE6 Fallback */
+top:0px;
+left:5px;
+z-index:9999;
+}
+</style>
+
+<a href="https://pa-tabanan.go.id/publikasi/pengumuman-layanan-masyarakat" class="top-pengumuman" target="_blank"><img src="/images/banners/disabilitas.png" style="width:150px;"></a>
+</div>
+
+</div>
+  
+<header>  
+  <!--begin top main section -->
+  <section class="top-main">
+  <div class="top-overlay">
+    <div id="top-date"></div>
+    
+
+     <div class="top-links"  id="slide">
+          
+    </div>
+  </div>
+  </section>
+<div class="header">
+  
+<!--begin bar nav section -->  
+  <section class="bar nav">
+  <div class="nav-outer">
+  <div class="nav-wrapper">
+  <div class="nav-inner">
+  <div class="menu">
+   	  	  
+<style>
+
+/* Top-to-Bottom */
+#gruemenu.grue_100 ul li { margin:0!important; padding:0!important }
+#gruemenu.grue_100 > ul > li {float: left; display: inline-block; }
+#gruemenu.grue_100 > ul > li.has-sub > a::after {border-top-color: #FFFFFF;  right: 17px; top: 50%; margin-top:-5px; }
+#gruemenu.grue_100 > ul > li.has-sub.active > a::after,
+#gruemenu.grue_100 > ul > li.has-sub:hover > a {border-top-color: #FFFFFF;}
+#gruemenu.grue_100 ul ul { position: absolute; left: -9999px; top: auto; padding-top: 6px;}
+#gruemenu.grue_100 > ul > li > ul::after { content: ""; position: absolute; width: 0; height: 0; border: 5px solid transparent; top: -3px; left: 20px;}
+#gruemenu.grue_100 ul ul ul::after {content: "";position: absolute; width: 0; height: 0; border: 5px solid transparent;  top: 11px; left: -3px;}
+#gruemenu.grue_100 > ul > li:hover > ul {top: auto;left: 0;}
+#gruemenu.grue_100 ul ul ul {padding-top: 0;padding-left: 6px;}
+#gruemenu.grue_100 ul ul > li:hover > ul {left: 220px;top: 0;}
+#gruemenu.grue_100 > ul > li > ul::after { border-bottom-color: #056E4F}
+#gruemenu.grue_100 ul ul ul::after {border-right-color:  #056E4F }
+#gruemenu.grue_100 ul ul li.has-sub > a::after {border-left-color: #FFFFFF;   right: 17px; top: 14px; }
+#gruemenu.grue_100 ul ul li.has-sub.active > a::after,
+#gruemenu.grue_100 ul ul li.has-sub:hover > a::after {border-left-color:#FFFFFF; }
+#gruemenu.grue_100 { background: #FF9900; }
+#gruemenu.grue_100 ul li a, #gruemenu.grue_100 
+#gruemenu.grue_100 {font-family: "tahoma", Arial, Helvetica, sans-serif ;}
+#gruemenu.grue_100,
+#gruemenu.grue_100 ul,
+#gruemenu.grue_100 ul li,
+#gruemenu.grue_100 ul > li > a { font-size:12px}
+#gruemenu.grue_100 ul > li > ul > li > a { font-size:12px!important}
+#gruemenu.grue_100 > ul > li > a { color: #FFFFFF; text-transform:sentence case; margin-left: 1px;
+    margin-right: 1px;}
+#gruemenu.grue_100 > ul > li:hover > a,
+#gruemenu.grue_100 > ul > li > a:hover,
+#gruemenu.grue_100 > ul > li.active > a {color: #FFFFFF; background: #056E4F;}
+#gruemenu.grue_100 ul ul li:hover > a,
+#gruemenu.grue_100 ul ul li.active > a {color: #FFFFFF; background: #056E4F;}
+#gruemenu.grue_100 ul ul li a, #navigation-toggle {color: #FFFFFF; background: #056E4F;}
+#gruemenu.grue_100 ul ul li:hover > a,
+#gruemenu.grue_100 ul ul li.active > a,
+#navigation-toggle:hover {color: #FFFFFF;background:#056E4F;}
+#gruemenu.grue_100 #menu-button{ color: #FFFFFF; }
+#gruemenu.grue_100 {-webkit-border-radius: 0px; -moz-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px;  border-radius: 0px;}
+#gruemenu.grue_100 ul li:first-child > a  { border-top-left-radius: 0px; border-bottom-left-radius: 0px;}
+#gruemenu.grue_100 ul ul li:first-child > a { border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: px;}
+#gruemenu.grue_100 ul ul li:last-child > a {border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+#gruemenu.grue_100 #menu-button::after {border-top: 2px solid #FFFFFF; border-bottom: 2px solid #FFFFFF; }
+#gruemenu.grue_100 #menu-button::before {border-top: 2px solid #FFFFFF; }
+#gruemenu.grue_100 ul ul li > a:hover {
+    background-color: #FF9900 ;
+/* Enable Fixed Menu */
+	#gruemenu.grue_100.gruefixed { position:fixed; top:0; left:0; width:100%; z-index:9999999}
+/* Enable Mobile Menu */
+@media screen and (max-width: 720px) {
+#navigation-toggle { z-index:999; display:block; position:fixed; top:10px; right:10px; padding:10px 10px; box-shadow:0px 1px 1px rgba(0,0,0,0.15);	border-radius:3px;	text-shadow:0px 1px 0px rgba(0,0,0,0.5); font-size:20px;		transition:color linear 0.15s; text-decoration: none !important; }
+#navigation-toggle span.nav-line { display:block; height:3px; width:20px; margin-bottom:4px; background:#fff}
+#navigation-toggle:hover {text-decoration:none;	}
+#gruemenu.grue_100  {display: none;}
+}	
+</style>
+
+<a href="#sidr-main" id="navigation-toggle" class="navigation-toggle-100"><span class="nav-line"></span><span class="nav-line"></span><span class="nav-line"></span></a>
+<div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
+<div id="gruemenu" class="grue_100 ">
+<ul >
+<li class="item-435 current active"><a href="/" >Home</a></li><li class="item-233 has-sub parent"><a><span class="separator">
+	Profil Pengadilan</span></a>
+<ul class="sub-menu"><li class="item-489"><a href="/tentang-pengadian/pengantar-dari-ketua-pengadilan" >Pengantar Ketua Pengadilan Agama Tabanan</a></li><li class="item-490"><a href="/tentang-pengadian/visi-dan-misi" >Visi dan Misi </a></li><li class="item-491 has-sub parent"><a><span class="separator">
+	Profile Pengadilan</span></a>
+<ul class="sub-menu"><li class="item-492"><a href="/tentang-pengadian/profile-pengadilan/sejarah-pengadilan" >Profil / Sejarah Pengadilan</a></li><li class="item-497 has-sub parent"><a><span class="separator">
+	Profil Pegawai</span></a>
+<ul class="sub-menu"><li class="item-726"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/ketua" >Ketua</a></li><li class="item-724"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/wakil-ketua" >Wakil Ketua</a></li><li class="item-778"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/profil-hakim" >Hakim</a></li><li class="item-727"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/kepaniteraan" >Kepaniteraan</a></li><li class="item-728"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/kesekretariatan" >Kesekretariatan</a></li><li class="item-744"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/ppnpn" >PPNPN</a></li><li class="item-846"><a href="/tentang-pengadian/profile-pengadilan/profil-pegawai/cpns-dan-pns" >PNS / Staf</a></li></ul></li><li class="item-493"><a href="/tentang-pengadian/profile-pengadilan/struktur-organisasi" >Struktur Organisasi</a></li><li class="item-494"><a href="/tentang-pengadian/profile-pengadilan/alamat-pengadilan" >Alamat dan Kontak Pengadilan</a></li><li class="item-495"><a href="/tentang-pengadian/profile-pengadilan/statistik-pengadilan" >Statistik Pengadilan</a></li><li class="item-496 has-sub parent"><a><span class="separator">
+	Wilayah Yurisdiksi</span></a>
+<ul class="sub-menu"><li class="item-833"><a href="/tentang-pengadian/profile-pengadilan/wilayah-yurisdiksi/wilayah" >Wilayah Yurisdiksi</a></li><li class="item-834"><a href="/tentang-pengadian/profile-pengadilan/wilayah-yurisdiksi/peta-wilayah" >Peta Wilayah Yurisdiksi</a></li></ul></li><li class="item-772"><a href="/tentang-pengadian/profile-pengadilan/tugas-pokok-dan-fungsi" >Tugas Pokok dan Fungsi Pengdilan</a></li><li class="item-885"><a href="/tentang-pengadian/profile-pengadilan/surat-keputusan-pembentukan-pengadilan" >Surat Keputusan Pembentukan Pengadilan</a></li><li class="item-886"><a href="/tentang-pengadian/profile-pengadilan/mantan-pimpinan" >Daftar Nama Mantan Pimpinan</a></li></ul></li><li class="item-498 has-sub parent"><a><span class="separator">
+	Sistem Pengelolaan Pengadilan</span></a>
+<ul class="sub-menu"><li class="item-500"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/kebijakan-dan-peraturan-pengadilan" >Kebijakan dan Peraturan Pengadilan</a></li><li class="item-501"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/yurisprudensi" >Yurisprudensi</a></li><li class="item-503"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/rencana-kerja-dan-anggaran" >Rencana Kerja dan Anggaran</a></li><li class="item-504"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/pengawasan-dan-kode-etik-hakim" >Pengawasan dan Kode Etik Hakim</a></li><li class="item-722"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/surat-keputusan-ketua" >Surat Keputusan </a></li><li class="item-723 has-sub parent"><a><span class="separator">
+	Kode Etik</span></a>
+<ul class="sub-menu"><li class="item-736"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/kode-etik/kode-etik-pns" >Kode Etik PNS</a></li><li class="item-734"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/kode-etik/kode-etik-dan-perilaku-hakim" >Kode Etik dan Perilaku Hakim</a></li><li class="item-735"><a href="/tentang-pengadian/sistem-pengelolaan-pengadilan/kode-etik/kode-etik-panitera-dan-jurusita" >Kode Etik Panitera dan Jurusita</a></li></ul></li></ul></li><li class="item-505 has-sub parent"><a><span class="separator">
+	Standar dan Maklumat Pelayanan</span></a>
+<ul class="sub-menu"><li class="item-551"><a href="/tentang-pengadian/survey-pelayanan-publik/maklumat-pelayanan" >Maklumat Pelayanan</a></li><li class="item-552"><a href="/tentang-pengadian/survey-pelayanan-publik/pernyataan-komitmen" >Pernyataan Komitmen</a></li><li class="item-746"><a href="/tentang-pengadian/survey-pelayanan-publik/standar-pelayanan" >Standar Pelayanan dan Maklumat Pelayanan</a></li><li class="item-847"><a href="/tentang-pengadian/survey-pelayanan-publik/maklumat-kompensasi-pelayanan" >Maklumat Kompensasi Pelayanan</a></li><li class="item-848"><a href="/tentang-pengadian/survey-pelayanan-publik/maklumat-pengaduan" >Maklumat Pengaduan</a></li></ul></li><li class="item-556 has-sub parent"><a href="/tentang-pengadian/standar-operating-procedure-sop" >Standar Operating Procedure (SOP)</a><ul class="sub-menu"><li class="item-912"><a href="/tentang-pengadian/standar-operating-procedure-sop/sop-khusus-pelayanan-publik" >SOP Khusus Pelayanan Publik</a></li></ul></li><li class="item-713"><a href="/tentang-pengadian/duk-bezzeting-pegawai" >DUK &amp; Bezzeting Pegawai</a></li><li class="item-826"><a href="/tentang-pengadian/agenda-jadwal-kegiatan-satuan-kerja" >Agenda / Jadwal Kegiatan Satuan Kerja</a></li><li class="item-838"><a href="/tentang-pengadian/cctv-online-monitor-pa-tabanan" >Monitoring dan Pengawasan CCTV Online</a></li><li class="item-880"><a href="/tentang-pengadian/surat-keputusan-pembentukan-pengadilan" >Surat Keputusan Pembentukan Pengadilan</a></li><li class="item-887"><a href="/tentang-pengadian/profil-pejabat-pegawai" >Profil Pejabat dan Pegawai</a></li></ul></li><li class="item-485 has-sub parent"><a><span class="separator">
+	Info Umum</span></a>
+<ul class="sub-menu"><li class="item-506 has-sub parent"><a><span class="separator">
+	Standar Layanan</span></a>
+<ul class="sub-menu"><li class="item-507"><a href="/layanan-publik/standar-layanan/jam-kerja-kantor" >Jam Kerja Kantor</a></li><li class="item-508"><a href="/layanan-publik/standar-layanan/tata-tertib-persidangan" >Tata Tertib Persidangan</a></li><li class="item-509"><a href="/layanan-publik/standar-layanan/standar-maklumat-pelayanan-peradilan" >Standar &amp; Maklumat Pelayanan Peradilan</a></li></ul></li><li class="item-510 has-sub parent"><a><span class="separator">
+	Layanan Informasi Publik</span></a>
+<ul class="sub-menu"><li class="item-511"><a href="/layanan-publik/layanan-informasi-publik/kebijakan-dan-peraturan" >Kebijakan dan Peraturan</a></li><li class="item-563"><a href="/layanan-publik/layanan-informasi-publik/mekanisme-memperoleh-informasi" >Mekanisme Memperoleh Informasi</a></li><li class="item-565"><a href="/layanan-publik/layanan-informasi-publik/mekanisme-pengajuan-keberatan-pelayanan-informasi" >Mekanisme Pengajuan Keberatan Pelayanan Informasi</a></li><li class="item-566"><a href="/layanan-publik/layanan-informasi-publik/biaya-memperoleh-salinan-informasi" >Biaya Memperoleh Salinan Informasi</a></li><li class="item-567"><a href="/layanan-publik/layanan-informasi-publik/laporan-akses-informasi" >Laporan Akses Informasi</a></li><li class="item-512"><a href="/layanan-publik/layanan-informasi-publik/kategorisasi-informasi" >Kategorisasi Informasi</a></li><li class="item-513"><a href="/layanan-publik/layanan-informasi-publik/prosedur-permohonan-informasi" >Prosedur Permohonan Informasi</a></li><li class="item-745"><a href="/layanan-publik/layanan-informasi-publik/sk-panjar-perkara" >SK Panjar Perkara</a></li><li class="item-788"><a href="/layanan-publik/layanan-informasi-publik/hak-hak-pemohon-informasi" >Hak-Hak Pemohon Informasi</a></li><li class="item-789"><a href="/layanan-publik/layanan-informasi-publik/contoh-formulir-permohonan-informasi" >Contoh Formulir Permohonan Informasi</a></li><li class="item-918"><a href="/layanan-publik/layanan-informasi-publik/informasi-gangguan-keamanan" >Informasi Gangguan Keamanan</a></li><li class="item-919"><a href="/layanan-publik/layanan-informasi-publik/informasi-tentang-persebaran-dan-sumber-penyakit-yang-berpotensi-menular" >Informasi tentang persebaran dan sumber penyakit yang berpotensi menular.</a></li><li class="item-920"><a href="/layanan-publik/layanan-informasi-publik/informasi-rencana-pemeliharaan-dan-atau-gangguan-sarana-dan-prasarana-utilitas-publik" >Informasi rencana pemeliharaan dan/ atau gangguan sarana dan prasarana utilitas publik</a></li></ul></li><li class="item-742"><a href="/layanan-publik/pengajuan-perkara" >Rekening Perkara </a></li><li class="item-514 has-sub parent"><a><span class="separator">
+	Layanan Informasi Perkara</span></a>
+<ul class="sub-menu"><li class="item-515"><a href="http://sipp.pa-tabanan.go.id/" >Jadwal Sidang</a></li><li class="item-516"><a href="http://sipp.pa-tabanan.go.id/" >Penelusuran Perkara</a></li></ul></li><li class="item-525 has-sub parent"><a><span class="separator">
+	Pengawasan dan Disiplin Pegawai</span></a>
+<ul class="sub-menu"><li class="item-526"><a href="/layanan-publik/penpengawasan-dan-disiplin-pegawaigumuman/sk-penunjukan-hakim-tinggi-pembina-dan-pengawas-daerah" >SK Penunjukan Hakim Pengawas Bidang</a></li><li class="item-527"><a href="/layanan-publik/penpengawasan-dan-disiplin-pegawaigumuman/hukuman-disiplin-pegawai" >Hukuman Disiplin Pegawai</a></li><li class="item-738"><a href="/layanan-publik/penpengawasan-dan-disiplin-pegawaigumuman/pedoman-pengawasan" >Pedoman Pengawasan</a></li><li class="item-739"><a href="/layanan-publik/penpengawasan-dan-disiplin-pegawaigumuman/langkah-pemeriksaan-dugaan-pelanggaran" >Langkah Pemeriksaan Dugaan Pelanggaran</a></li><li class="item-740"><a href="/layanan-publik/penpengawasan-dan-disiplin-pegawaigumuman/laporan-pengawasan" >Laporan Pengawasan</a></li><li class="item-793"><a href="/layanan-publik/penpengawasan-dan-disiplin-pegawaigumuman/kode-etik-hakim" >Kode Etik Hakim</a></li></ul></li><li class="item-528 has-sub parent"><a><span class="separator">
+	Pengaduan Layanan Publik</span></a>
+<ul class="sub-menu"><li class="item-570"><a href="/layanan-publik/pengaduan-layanan-publik/sk-tim-pengaduan" >SK Tim Pengaduan</a></li><li class="item-562"><a href="/layanan-publik/pengaduan-layanan-publik/tata-cara-pengaduan" >Tata Cara Pengaduan</a></li><li class="item-568"><a href="/layanan-publik/pengaduan-layanan-publik/mekanisme-penyelesaian-pengaduan" >Mekanisme Penyelesaian Pengaduan</a></li><li class="item-569"><a href="https://siwas.mahkamahagung.go.id/" >Aplikasi Pengaduan MA</a></li><li class="item-564"><a href="/layanan-publik/pengaduan-layanan-publik/laporan-pengaduan" >Laporan Pengaduan</a></li><li class="item-748"><a href="/layanan-publik/pengaduan-layanan-publik/unduh-formulir-pengaduan" >Unduh Formulir Pengaduan</a></li><li class="item-791"><a href="/layanan-publik/pengaduan-layanan-publik/hak-hak-pelapor-dan-terlapor" >HAK-HAK PELAPOR DAN TERLAPOR</a></li><li class="item-792"><a href="/layanan-publik/pengaduan-layanan-publik/laporan-rekapitulasi-pengaduan" >Laporan Rekapitulasi Pengaduan</a></li></ul></li><li class="item-519 has-sub parent"><a><span class="separator">
+	Laporan</span></a>
+<ul class="sub-menu"><li class="item-520"><a href="/layanan-publik/laporan/laporan-tahunan" >Laporan Tahunan</a></li><li class="item-521"><a href="/layanan-publik/laporan/lkijp" >LKJIP</a></li><li class="item-522"><a href="/layanan-publik/laporan/lhkpn" >LHKPN dan LHKSN Pegawai PA Tabanan</a></li><li class="item-524"><a href="/layanan-publik/laporan/laporan-pelayanan-informasi-publik" >Laporan Pelayanan Informasi Publik</a></li><li class="item-559"><a href="/layanan-publik/laporan/rencana-kinerja-tahunan-rkt" >Rencana Kinerja Tahunan (RKT)</a></li><li class="item-558"><a href="/layanan-publik/laporan/penetapan-kinerja-tahunan-pkt" >Penetapan Kinerja Tahunan (PKT)</a></li><li class="item-557"><a href="/layanan-publik/laporan/indikator-kinerja-utama-iku" >Indikator Kinerja Utama (IKU)</a></li><li class="item-502"><a href="/layanan-publik/laporan/rencana-strategis" >Rencana Strategis</a></li><li class="item-555"><a href="/layanan-publik/laporan/program-kerja" >Program Kerja</a></li><li class="item-554"><a href="/layanan-publik/laporan/rencana-jangka-panjang-blue-print" >Rencana Jangka Panjang (Blue Print)</a></li><li class="item-808"><a href="/layanan-publik/laporan/rencana-aksi" >Rencana Aksi</a></li><li class="item-809"><a href="/layanan-publik/laporan/perjanjian-kinerja" >Perjanjian Kinerja (PK)</a></li><li class="item-888"><a href="/layanan-publik/laporan/manualmutu" >Manual Mutu PA Tabanan</a></li></ul></li><li class="item-737 has-sub parent"><a><span class="separator">
+	Survey Kepuasan Masyarakat</span></a>
+<ul class="sub-menu"><li class="item-749"><a href="/layanan-publik/survey-kepuasan-masyarakat/kuisioner-skm" >Kuisioner SKM</a></li><li class="item-750"><a href="/layanan-publik/survey-kepuasan-masyarakat/laporan" >Laporan </a></li></ul></li><li class="item-786"><a href="/layanan-publik/petugas-ptsp" >Petugas Pelayanan Terpadu Satu Pintu (PTSP) </a></li><li class="item-787"><a href="/layanan-publik/fasilitas-publik" >Fasilitas Publik</a></li><li class="item-790"><a href="/layanan-publik/siwas-ma-ri" >SIWAS MA-RI</a></li><li class="item-794"><a href="/layanan-publik/prosedur-evakuasi" >Prosedur Evakuasi</a></li><li class="item-827"><a href="/layanan-publik/daftar-nama-pejabat-pengawas" >Daftar Nama Pejabat Pengawas</a></li><li class="item-828"><a href="/layanan-publik/hukuman-disiplin-hasil-pengawasan" >Hukuman Disiplin Hasil Pengawasan</a></li><li class="item-829"><a href="/layanan-publik/putusan-majelis-kehormatan-hakim" >Putusan Majelis Kehormatan Hakim</a></li><li class="item-835 has-sub parent"><a><span class="separator">
+	Indeks Persepsi Korupsi</span></a>
+<ul class="sub-menu"><li class="item-836"><a href="/layanan-publik/indeks-persepsi-korupsi/kuisioner-ikp" >Kuisioner IKP</a></li><li class="item-837"><a href="/layanan-publik/indeks-persepsi-korupsi/laporan-ikp" >Laporan IPK SPKP SPAK IKM</a></li></ul></li><li class="item-841"><a href="/layanan-publik/reformasi-birokrasi" >Zona Integritas</a></li><li class="item-921 has-sub parent"><a><span class="separator">
+	PPID</span></a>
+<ul class="sub-menu"><li class="item-922"><a href="/layanan-publik/ppid/tugas-dan-fungsi-ppid" >Tugas dan Fungsi PPID</a></li></ul></li></ul></li><li class="item-486 has-sub parent"><a><span class="separator">
+	Kepaniteraan</span></a>
+<ul class="sub-menu"><li class="item-869"><a href="/layanan-hukum/hak-perempuan-dan-anak-pasca-perceraian" >Hak Perempuan dan Anak Pasca Perceraian</a></li><li class="item-529 has-sub parent"><a><span class="separator">
+	Layanan Perkara Prodeo</span></a>
+<ul class="sub-menu"><li class="item-530"><a href="/layanan-hukum/layanan-perkara-prodeo/prosedur" >Prosedur</a></li><li class="item-531"><a href="/layanan-hukum/layanan-perkara-prodeo/biaya" >Biaya</a></li><li class="item-532"><a href="/layanan-hukum/layanan-perkara-prodeo/posbakum" >Posbakum</a></li><li class="item-533"><a href="/layanan-hukum/layanan-perkara-prodeo/peraturan-dan-kebijakan" >Peraturan dan Kebijakan</a></li><li class="item-774"><a href="/layanan-hukum/layanan-perkara-prodeo/biaya-prodeo-dipa" >Biaya Prodeo DIPA</a></li></ul></li><li class="item-571 has-sub parent"><a><span class="separator">
+	Hak Hak Pencari Keadilan</span></a>
+<ul class="sub-menu"><li class="item-572"><a href="/layanan-hukum/hak-hak-pencari-keadilan/hak-memperoleh-bantuan-hukum" >Hak Hak Pencari Keadilan</a></li><li class="item-573"><a href="/layanan-hukum/hak-hak-pencari-keadilan/hak-atas-biaya-perkara-cuma-cuma-prodeo" >Hak Atas Biaya Perkara Cuma-Cuma (Prodeo)</a></li><li class="item-574"><a href="/layanan-hukum/hak-hak-pencari-keadilan/hak-pokok-proses-litigasi-persidangan" >Hak Pokok Proses Litigasi &amp; Persidangan</a></li></ul></li><li class="item-703 has-sub parent"><a><span class="separator">
+	Prosedur Berperkara</span></a>
+<ul class="sub-menu"><li class="item-704"><a href="/layanan-hukum/prosedur-berperkara/prosedur-berperkara-tingkat-pertama" >Prosedur Berperkara Tingkat Pertama</a></li><li class="item-706"><a href="/layanan-hukum/prosedur-berperkara/prosedur-berperkara-tingkat-kasasi" >Prosedur Berperkara Tingkat Kasasi</a></li><li class="item-707"><a href="/layanan-hukum/prosedur-berperkara/prosedur-berperkara-peninjauan-kembali" >Prosedur Berperkara Peninjauan Kembali</a></li><li class="item-705"><a href="/layanan-hukum/prosedur-berperkara/prosedur-berperkara-tingkat-banding" >Prosedur Berperkara Tingkat Banding</a></li><li class="item-796"><a href="/layanan-hukum/prosedur-berperkara/prosedur-gugatan-sederhana" >Prosedur Gugatan Sederhana</a></li><li class="item-811"><a href="/layanan-hukum/prosedur-berperkara/prosedur-pengambilan-produk-pengadilan" >Prosedur Pengambilan Produk Pengadilan</a></li><li class="item-854"><a href="/layanan-hukum/prosedur-berperkara/informasi-penyelesaian-perkara" >Informasi Penyelesaian Perkara</a></li><li class="item-917"><a href="/layanan-hukum/prosedur-berperkara/prosedur-eksekusi" >Prosedur Eksekusi </a></li></ul></li><li class="item-708 has-sub parent"><a><span class="separator">
+	Informasi Perkara</span></a>
+<ul class="sub-menu"><li class="item-776"><a href="http://sipp.pa-tabanan.go.id/statistik_perkara" >Laporan Keadaan Perkara</a></li><li class="item-777"><a href="/layanan-hukum/informasi-perkara/laporan-keuangan-perkara" >Laporan Keuangan Perkara</a></li><li class="item-815"><a href="/layanan-hukum/informasi-perkara/panggilan-ghaib" >Panggilan Ghaib</a></li><li class="item-816"><a href="/layanan-hukum/informasi-perkara/laporan-pengembalian-sisa-panjar" >Laporan Pengembalian Sisa Panjar</a></li><li class="item-851"><a href="/layanan-hukum/informasi-perkara/jadwal-sidang" >Jadwal Sidang</a></li></ul></li><li class="item-775"><a href="/layanan-hukum/biaya-perkara" >Biaya Perkara</a></li><li class="item-812 has-sub parent"><a><span class="separator">
+	Mediasi</span></a>
+<ul class="sub-menu"><li class="item-813"><a href="/layanan-hukum/mediasi/prosedur-mediasi" >Prosedur Mediasi</a></li><li class="item-814"><a href="/layanan-hukum/mediasi/daftar-nama-mediator" >Daftar Nama Mediator</a></li></ul></li><li class="item-817"><a href="/layanan-hukum/pedoman-pengelolaan-kepaniteraan" >Pedoman Pengelolaan Kepaniteraan</a></li><li class="item-818 has-sub parent"><a><span class="separator">
+	Layanan Posbakum</span></a>
+<ul class="sub-menu"><li class="item-819"><a href="/layanan-hukum/layanan-posbakum/penerima-jasa-pos-bantuan-hukum" >Penerima Jasa Pos Bantuan Hukum</a></li><li class="item-820"><a href="/layanan-hukum/layanan-posbakum/jenis-jasa-hukum-yang-dilayani" >Jenis Jasa Hukum Yang dilayani</a></li><li class="item-821"><a href="/layanan-hukum/layanan-posbakum/syarat-syarat-dan-mekanisme" >Syarat-Syarat dan Mekanisme</a></li><li class="item-822"><a href="/layanan-hukum/layanan-posbakum/dasar-aturan-tentang-pos-bantuan-hukum" >Dasar aturan tentang Pos Bantuan Hukum</a></li></ul></li><li class="item-831"><a href="/layanan-hukum/e-court" >E-Court</a></li><li class="item-832"><a href="/layanan-hukum/direktori-putusan" >Direktori Putusan</a></li><li class="item-840"><a href="/layanan-hukum/delegasi" >Delegasi</a></li><li class="item-849"><a href="/layanan-hukum/sipp" >SIPP</a></li><li class="item-850"><a href="/layanan-hukum/ecourt" >Ecourt</a></li><li class="item-852"><a href="/layanan-hukum/statistik-perkara" >Statistik Perkara</a></li><li class="item-853"><a href="/layanan-hukum/rincian-radius-biaya-panggilan-per-kecamatan" >Rincian Radius Biaya Panggilan Per Kecamatan</a></li><li class="item-909"><a href="/layanan-hukum/protokol-persidangan-dan-keamanan-pengadilan" >Protokol Persidangan Dan Keamanan Pengadilan</a></li><li class="item-911"><a href="/layanan-hukum/hak-hak-kepaniteraan" >Hak-Hak Kepaniteraan</a></li></ul></li><li class="item-487 has-sub parent"><a><span class="separator">
+	Kesekretariatan</span></a>
+<ul class="sub-menu"><li class="item-711 has-sub parent"><a><span class="separator">
+	Transparansi Kepegawaian</span></a>
+<ul class="sub-menu"><li class="item-537"><a href="/kesekretariatan/transparansi-kepegawaian/kenaikan-pangkat-satya-lencana" >Kenaikan Pangkat dan Penghargaan</a></li><li class="item-538"><a href="/kesekretariatan/transparansi-kepegawaian/foto-galeri" >Statistik Jumlah Pegawai</a></li></ul></li><li class="item-712 has-sub parent"><a><span class="separator">
+	Transparansi Keuangan</span></a>
+<ul class="sub-menu"><li class="item-536"><a href="/kesekretariatan/transparansi-keuangan/pedoman-administrasi-keuangan" >Pedoman Administrasi Keuangan</a></li><li class="item-714"><a href="/kesekretariatan/transparansi-keuangan/laporan-realisasi-anggaran" >Laporan Realisasi Anggaran (LRA)</a></li><li class="item-715"><a href="/kesekretariatan/transparansi-keuangan/dipa" >DIPA (Daftar Isian Pelaksanaan Anggaran)</a></li><li class="item-717"><a href="/kesekretariatan/transparansi-keuangan/laporan-neraca" > Laporan Neraca</a></li><li class="item-718"><a href="/kesekretariatan/transparansi-keuangan/pendapatan-negara-bukan-pajak-pnbp" >Pendapatan Negara Bukan Pajak (PNBP)</a></li><li class="item-719"><a href="/kesekretariatan/transparansi-keuangan/laporan-keuangan" >Catatan Atas Laporan Keuangan (CALK)</a></li><li class="item-884"><a href="/kesekretariatan/transparansi-keuangan/rka-k-l" >RKA K/L</a></li></ul></li><li class="item-720 has-sub parent"><a><span class="separator">
+	Pengelolaan Barang Milik Negara (BMN)</span></a>
+<ul class="sub-menu"><li class="item-523"><a href="/kesekretariatan/pengelolaan-barang-milik-negara-bmn/daftar-aset-dan-inventaris" >Daftar Aset dan Inventaris</a></li><li class="item-721"><a href="/kesekretariatan/pengelolaan-barang-milik-negara-bmn/laporan-bmn" >Laporan BMN</a></li><li class="item-807"><a href="/kesekretariatan/pengelolaan-barang-milik-negara-bmn/pengadaan-barang-dan-jasa" >Pengadaan Barang dan Jasa</a></li></ul></li><li class="item-806"><a href="/kesekretariatan/pedoman-pengelolaan-kesekretariatan" >Pedoman Pengelolaan Kesekretariatan</a></li><li class="item-810"><a href="/kesekretariatan/unit-pelaksana-teknis-kesekretariatan" >Unit Pelaksana Teknis Kesekretariatan</a></li></ul></li><li class="item-797 has-sub parent"><a><span class="separator">
+	Informasi Lainnya</span></a>
+<ul class="sub-menu"><li class="item-798"><a href="/informasi-lainnya/statistik-kunjungan-website" >Statistik Kunjungan Website</a></li><li class="item-785"><a href="/informasi-lainnya/tautan" >Tautan Terkait</a></li><li class="item-824"><a href="/informasi-lainnya/ucapan-selamat-duka-cita" >Ucapan Selamat/Duka Cita</a></li><li class="item-825"><a href="/informasi-lainnya/tautan-ke-situs-sosial-media" >Tautan Ke Situs Sosial Media</a></li><li class="item-868"><a href="/informasi-lainnya/galery" >Galery</a></li><li class="item-891 has-sub parent"><a><span class="separator">
+	Layanan Pengadilan</span></a>
+<ul class="sub-menu"><li class="item-892"><a href="/informasi-lainnya/layanan-pengadilan/asal-usul-anak" >Asal Usul Anak</a></li><li class="item-893"><a href="/informasi-lainnya/layanan-pengadilan/cerai-gugat" >Cerai Gugat</a></li><li class="item-894"><a href="/informasi-lainnya/layanan-pengadilan/cerai-talak" >Cerai Talak</a></li><li class="item-895"><a href="/informasi-lainnya/layanan-pengadilan/dispensasi-kawin" >Dispensasi Kawin</a></li><li class="item-896"><a href="/informasi-lainnya/layanan-pengadilan/harta-bersama" >Harta Bersama</a></li><li class="item-897"><a href="/informasi-lainnya/layanan-pengadilan/izin-kawin" >Izin Kawin</a></li><li class="item-898"><a href="/informasi-lainnya/layanan-pengadilan/pembatalan-perkawinan" >Pembatalan Perkawinan</a></li><li class="item-899"><a href="/informasi-lainnya/layanan-pengadilan/pencegahan-perkawinan" >Pencegahan Perkawinan</a></li><li class="item-900"><a href="/informasi-lainnya/layanan-pengadilan/penetapan-ahli-waris" >Penetapan Ahli Waris</a></li><li class="item-901"><a href="/informasi-lainnya/layanan-pengadilan/pengangkatan-anak" >Pengangkatan Anak</a></li><li class="item-902"><a href="/informasi-lainnya/layanan-pengadilan/pengesahan-nikah" >Pengesahan Nikah</a></li><li class="item-903"><a href="/informasi-lainnya/layanan-pengadilan/penolakan-perkawinan" >Penolakan Perkawinan</a></li><li class="item-904"><a href="/informasi-lainnya/layanan-pengadilan/perwalian-anak" >Perwalian Anak</a></li><li class="item-905"><a href="/informasi-lainnya/layanan-pengadilan/perwalian-orangtua" >Perwalian Orangtua</a></li><li class="item-906"><a href="/informasi-lainnya/layanan-pengadilan/izin-poligami" >Izin Poligami</a></li><li class="item-907"><a href="/informasi-lainnya/layanan-pengadilan/wali-adhol" >Wali Adhol</a></li></ul></li><li class="item-914"><a href="/informasi-lainnya/peta-situs" >Peta Situs (Penilaian Website)</a></li></ul></li><li class="item-799 has-sub parent"><a><span class="separator">
+	Publikasi</span></a>
+<ul class="sub-menu"><li class="item-800"><a href="/publikasi/arsip-berita" >Arsip Berita</a></li><li class="item-801"><a href="/publikasi/arsip-pengumuman" >Arsip Pengumuman</a></li><li class="item-802"><a href="/publikasi/arsip-file-multimedia" >Arsip File Multimedia</a></li><li class="item-803"><a href="/publikasi/arsip-artikel" >Arsip Artikel</a></li><li class="item-804"><a href="/publikasi/regulasi-aturan" >Regulasi/Aturan</a></li><li class="item-823"><a href="/publikasi/arsip-hasil-penelitian" >Arsip Hasil Penelitian</a></li><li class="item-830"><a href="/publikasi/arsip-surat-perjanjian-dengan-pihak-ketiga-mou" target="_blank" >Arsip Surat Perjanjian dengan Pihak Ketiga (MoU)</a></li><li class="item-881"><a href="/publikasi/ikm-dan-ipk" >IKM dan IPK</a></li><li class="item-913"><a href="/publikasi/smap" >SMAP</a></li></ul></li></ul>
+</div>
+
+
+
+
+
+
+
+	</div>
+</div>
+</div>
+</div>
+</section>
+<div class="cleared reset-box"></div>
+<!--begin header section -->
+<section class="header-position">
+        	    <div class="header-wrapper">
+                <div class="cleared reset-box"></div>
+							<!-- jquery slider. To customize the slider functionality edit the custom.js file -->
+							<div class="slide">
+							<div id="sp-smart-slider111" class="sp-smart-slider layout-maxima  ">
+    <!-- Carousel items -->
+    <div class="maxima-slider">
+        
+        <div class="slider-item odd animate-in ">
+            <div class="slider-item-inner">
+                <div class="slider-content">
+                    <div class="slider-title">
+                        <h1 class="sp-smart-title">SIWAS</h1>                                
+                    </div>
+
+                    <div class="slider-text hidden-phone">
+                        "Whistleblowing System""adalah aplikasi yang disediakan oleh Badan Pengawasan Mahkamah Agung RI, untuk melaporkan suatu perbuatan berindikasi pelanggaran yang terjadi di lingkungan Mahkamah Agung Republik Indonesia atau Peradilan dibawahnya." Badan Pengawasan Mahkamah Agung RI menghargai informasi yang Anda laporkan karena Fokus kami adalah materi informasi yang Anda Laporkan.                    </div>
+
+                                            <div class="slider-button">
+
+                            <a href="https://siwas.mahkamahagung.go.id/" class="csbutton slider-action">
+                                Selanjutnya <a class="icon-chevron-sign-right"></a>
+                            </a>
+                        </div>
+                                        </div>
+
+                <div  class="slider-image">
+                    <img src="https://pa-tabanan.go.id/images/slide/siwas.png" alt="SIWAS" title="SIWAS" />
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    
+        <div class="slider-item even  ">
+            <div class="slider-item-inner">
+                <div class="slider-content">
+                    <div class="slider-title">
+                        <p class="sp-smart-pretitle">Keluarga Besar</p><h1 class="sp-smart-title">PENGADILAN AGAMA TABANAN</h1>                                
+                    </div>
+
+                    <div class="slider-text hidden-phone">
+                        Mengucapkan Selamat Hari Lahir Pancasila                    </div>
+
+                                    </div>
+
+                <div  class="slider-image">
+                    <img src="https://pa-tabanan.go.id/images/slide/ucapan_pancasila.jpg" alt="PENGADILAN AGAMA TABANAN" title="PENGADILAN AGAMA TABANAN" />
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+<div class="sp-preloader">
+    <i class="icon-cog icon-spin"></i>
+    <i class="icon-cog icon-spin"></i>
+    <i class="icon-cog icon-spin"></i>
+</div>
+<div class="slider-controllers">
+        <ul>
+                <li class="active" style="width: 50%;">
+            <a href="javascript:;">
+                            </a>
+        </li>
+                <li class="" style="width: 50%;">
+            <a href="javascript:;">
+                            </a>
+        </li>
+                <ul>
+        </div>
+    </div>
+
+	
+					</div>						
+					</div>			
+           
+ </section>
+  <div class="header-shadow"></div>
+     </div>
+    </header>
+    <div class="cleared reset-box"></div>
+
+<section id="breadcrumbs">
+   <div class = "breadcrumbs" >
+<span class="showHere">You are here: </span><a href="/" class="pathway">Home</a></div>
+  </section>
+   <!--begin spotlight section -->
+        <section class="spot-bg">
+            
+            
+           			
+
+<div class="custom"  >
+	<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/program_prioritas_badilag_2024.jpeg" alt="program prioritas badilag 2024" width="915" height="400" /><br /><a class="jcepopup" href="/images/images/gif2-ANDA-MEMASUKI-WILAYAH-ZI.gif" data-mediabox="1"><img class="pic3d" style="display: block; margin-left: auto; margin-right: auto;" src="/images/images/ZI_2022.jpg" alt="gif2 ANDA MEMASUKI WILAYAH ZI" width="915" height="250" /></a><img class="pic3d" style="display: block; margin-left: auto; margin-right: auto;" src="/images/MODERN.jpg" alt="MODERN" width="915" height="310" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/banner_ecourt.jpg" alt="banner ecourt" width="914" height="396" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/pengaduan.jpg" alt="pengaduan" width="914" height="396" />&nbsp;</p>
+<p style="margin: 0px -16px 15px; padding: 10px; background: #03543c; text-align: center;"><span style="font-size: 14pt; color: #ffff00;"><strong><span style="font-family: arial, helvetica, sans-serif;">AREA ZONA INTEGRITAS<br /></span></strong></span></p>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; <a href="https://drive.google.com/file/d/1Bcj99pmPMyQ5cRiakF5bjTBXg0l12KPh/view?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_I_MANAJEMEN_PERUBAHAN_1.png" alt="10a. Gugatan Sederhana" width="106" height="112" /></a>&nbsp; <a href="https://drive.google.com/file/d/1PEA3rai0wo-i9IEfu8oZc5X87Wi_2tpb/view?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_I_MANAJEMEN_PERUBAHAN.png" alt="BROS 5" width="106" height="112" />&nbsp;</a> <a href="https://drive.google.com/file/d/14NNXvP0Vd5nMdDzlkdA85p7GP6CXWhIO/view?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_III_SISTEM_MANAJEMEN_SDM.png" alt="BROS 6" width="106" height="112" />&nbsp; </a><a href="https://drive.google.com/file/d/1-Hc3poVQEY_xQaZsFpaF-V3aPGw2Phju/view?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_IV_PENGUATAN.png" alt="BROSUR 1" width="106" height="112" /></a>&nbsp; <a href="https://drive.google.com/file/d/1LwqEdFP30JhS90WW2c7Lbm8lETa7xDf0/view?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_V_PENGAWASAN.png" alt="indek prilaku korupsi" width="106" height="112" />&nbsp;</a> <a href="https://drive.google.com/file/d/1EcmPIU24inj0g1F1YTjmB8WA9ohTwvrc/view?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_VI_PENINGKATAN_KUALITAS_PELAYANAN_PUBLIK.png" alt="5. IKM" width="106" height="112" /></a>&nbsp;&nbsp; <a href="https://drive.google.com/drive/folders/12Anv8M5Su8tT3en24v1bxIPxBABd5VDe?usp=sharing" target="_blank" rel="noopener"><img class="pic3d" src="/images/AREA_HASIL.jpeg" alt="AREA HASIL" width="106" height="112" /></a>&nbsp; &nbsp;</p>
+<p style="margin: 0px -16px 15px; padding: 10px; background: #03543c; text-align: center;"><span style="font-size: 14pt; color: #ffff00;"><strong><span style="font-family: arial, helvetica, sans-serif;">APLIKASI PENDUKUNG</span></strong></span></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://ecourt.mahkamahagung.go.id/" target="_blank" rel="noopener"><img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_21.15.33_1.jpeg" alt="ecourt pa" width="191" height="80" /></a>&nbsp; <a href="http://sipp.pa-tabanan.go.id/list_jadwal_sidang" target="_blank" rel="noopener"><img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_21.15.32_1.jpeg" alt="jadwal sidang pa" width="191" height="80" />&nbsp; </a><a href="http://sipp.pa-tabanan.go.id/" target="_blank" rel="noopener"><img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_21.15.32.jpeg" alt="sipp pa" width="191" height="80" /></a>&nbsp; <a href="https://siwas.mahkamahagung.go.id/" target="_blank" rel="noopener"><img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_21.15.33.jpeg" alt="siwas pa" width="191" height="80" /></a> &nbsp; <a href="http://123.231.185.227:1708/ikm_update/" target="_blank" rel="noopener"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://gugatanmandiri.badilag.net/gugatan_mandiri/" target="_blank" rel="noopener"><img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_20.46.30.jpeg" alt="WhatsApp Image 2021 09 08 at 20.46.30" width="191" height="80" /></a>&nbsp; <a href="https://putusan3.mahkamahagung.go.id/pengadilan/profil/pengadilan/pa-tabanan.html" target="_blank" rel="noopener"><img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_20.46.30_1.jpeg" alt="WhatsApp Image 2021 09 08 at 20.46.30 1" width="191" height="80" /></a>&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfMNE2jX1hp0bmDiF_zrycOG5arXO4gNmS00MHC5vjH9hV-LQ/viewform" target="_blank" rel="noopener"> <img class="pic3d" src="/images/WhatsApp_Image_2021-09-08_at_20.46.31_1.jpeg" alt="WhatsApp Image 2021 09 08 at 20.46.31 1" width="191" height="80" />&nbsp;&nbsp;</a><a href="http://sipp.pa-tabanan.go.id/statistik_perkara" target="_blank" rel="noopener"><img class="pic3d" src="/images/STATISTIK_PERKARA.jpeg" alt="WhatsApp Image 2021 09 08 at 20.46.31 1" width="191" height="80" /></a></p>
+<p style="margin: 0px -16px 15px; padding: 10px; background: #03543c; text-align: center;"><span style="font-size: 14pt; color: #ffff00;"><strong><span style="font-family: arial, helvetica, sans-serif;">INOVASI LAYANAN PA TABANAN</span></strong></span></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://192.168.1.100/ptsponline/" target="_blank" rel="noopener"><img class="pic3d" src="/images/Inovasi_PTSP_Online.jpg" alt="Inovasi PTSP Online" width="191" height="135" /></a>&nbsp;&nbsp;<a href="https://sites.google.com/view/posbakum-online-pa-tabanan" target="_blank" rel="noopener"><img class="pic3d" src="/images/Posbakum_Online.jpg" alt="Posbakum Online" width="191" height="135" /></a>&nbsp;&nbsp;<a href="https://sites.google.com/view/imeipatabanan/home?pli=1" target="_blank" rel="noopener"><img class="pic3d" src="/images/mediasi_online.jpg" alt="mediasi online" width="191" height="135" /></a>&nbsp;&nbsp;<a href="http://192.168.1.100/perpusonline/" target="_blank" rel="noopener"><img class="pic3d" src="/images/banner_web_perpus_online.jpg" alt="Inovasi hitung panjar" width="191" height="135" /></a></p></div>
+
+
+<div class="custom"  >
+	<p>&nbsp;</p>
+<p style="margin: 0px -16px 15px; padding: 10px; background: #03543c; text-align: center;"><span style="font-size: 14pt; color: #ffff00;"><strong><span style="font-family: arial, helvetica, sans-serif;">INFORMASI DAN LAYANAN<br /></span></strong></span></p>
+<p style="text-align: center;">&nbsp;&nbsp;<a class="jcepopup" href="/images/10a._Gugatan_Sederhana.png" data-mediabox="1"><img class="pic3d" src="/images/10a._Gugatan_Sederhana.png" alt="10a. Gugatan Sederhana" width="66" height="81" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/1._Kompensasi_Layanan_hal._1.png" data-mediabox="1"><img class="pic3d" src="/images/BROS_5.jpeg" alt="BROS 5" width="65" height="80" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/1._Kompensasi_Laynan_hal._2.png" data-mediabox="1"><img class="pic3d" src="/images/BROS_6.jpeg" alt="BROS 6" width="65" height="80" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/9b._Biaya_Perkara.png" data-mediabox="1"><img class="pic3d" src="/images/BROSUR_1.jpeg" alt="BROSUR 1" width="65" height="80" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/4._Ulasan_Goggle.jpg" data-mediabox="1"><img class="pic3d" src="/images/4._Ulasan_Goggle.jpg" alt="4. Ulasan Goggle" width="65" height="80" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/2._Whistle_Blowing_System.jpg" data-mediabox="1"><img class="pic3d" src="/images/2._Whistle_Blowing_System.jpg" alt="2. Whistle Blowing System" width="65" height="80" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/3._Penipuan.jpg" data-mediabox="1"><img class="pic3d" src="/images/benner/3._Penipuan.jpg" alt="2. Whistle Blowing System" width="64" height="80" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/9c._Biaya_Perkara.png" data-mediabox="1"><img class="pic3d" src="/images/benner/9c._Biaya_Perkara.png" alt="2. Whistle Blowing System" width="64" height="80" /></a>&nbsp;&nbsp;<a class="jcepopup" href="/images/benner/9d._Biaya_Perkara.png" data-mediabox="1"><img class="pic3d" src="/images/benner/9d._Biaya_Perkara.png" alt="2. Whistle Blowing System" width="64" height="80" /></a>&nbsp;&nbsp; &nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/images/IPAK_TR_3_2024.jpg" alt="IPAK TR 3 2024" width="181" height="175" />&nbsp;&nbsp;<img src="/images/IKM_Triwulan_3_2024_copy.jpg" alt="IKM Triwulan 3 2024 copy" width="181" height="175" />&nbsp;<img src="/images/IPKP_Triwulan_3_2024_JPG.jpg" alt="IPKP Triwulan 3 2024 JPG" width="181" height="175" /></p></div>
+
+
+<div class="custom"  >
+	<p>&nbsp; &nbsp; &nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp;</p>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp;</p>
+<p style="text-align: center;">&nbsp;</p></div>
+
+			            
+            
+          
+        </section>
+       
+  <!--begin content  layout section -->
+    <div class="box sheet">
+        <div class="box-body sheet-body">
+            <div class="layout-wrapper">
+                <div class="content-layout">
+                    <div class="content-layout-row">
+          
+                      <!--begin main content section -->
+                            <div class="layout-cell content">
+							<div class="box post">
+							<div class="box-body post-body">
+							<div class="post-inner article">
+							<div class="postcontent">
+							<div class="art-layout-cell art-content">
+							
+														
+
+<div class="custom"  >
+	<p></p> 
+ 
+ <div class="block-divide" style="float: left; width: 49.9%; margin-right: 15px; margin-left: -10px; margin-bottom: 20px; padding-right: 15px;"><div class=content-box-gray> 
+ <h3 class="dotted"><img src="/images/icon/pengumuman.png" width="30" style="float: left;">Pengumuman</img></h3> 
+ 		<div class="moduletable">
+						<ul class="category-module mod-list">
+						<li>
+									<a class="mod-articles-category-title " href="/informasi-pengadilan/707-pemberitahuan-pencabutan-perkara-perkara-ghoib-nomor-39-pdt-g-2024-pa-tbnan">Pemberitahuan Pencabutan Perkara Perkara Ghoib Nomor 39/Pdt.G/2024/PA.Tbnan</a>
+				
+				
+				
+				
+									<span class="mod-articles-category-date">
+						| (08/10)					</span>
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/informasi-pengadilan/706-pemberitahuan-penetapan-perkara-ghoib-nomor-41-pdt-g-2024-pa-tbnan">Pemberitahuan Pencabutan Perkara Perkara Ghoib Nomor 41/Pdt.G/2024/PA.Tbnan</a>
+				
+				
+				
+				
+									<span class="mod-articles-category-date">
+						| (01/10)					</span>
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/informasi-pengadilan/690-pengumuman-penundaan-sidang-perkara-nomor-50-pdt-g-2024-pa-tbnan">Pengumuman Penundaan Sidang Perkara Nomor 50/Pdt.G/2024/PA.Tbnan</a>
+				
+				
+				
+				
+									<span class="mod-articles-category-date">
+						| (06/08)					</span>
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/informasi-pengadilan/689-pengumuman-istbat-nikah-perkara-nomor-13-pdt-p-2024-pa-tbnan">Pengumuman Istbat Nikah Perkara Nomor 13/Pdt.P/2024/PA.Tbnan</a>
+				
+				
+				
+				
+									<span class="mod-articles-category-date">
+						| (01/08)					</span>
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/informasi-pengadilan/686-pa-tabanan-gelar-lomba-dan-donor-darah-sukarela-dalam-rangka-menyemarakan-hut-republik-indonesia-dan-mahkamah-agung-ri">PA Tabanan Gelar Lomba dan Donor Darah Sukarela Dalam Rangka Menyemarakan HUT Republik Indonesia dan Mahkamah Agung RI</a>
+				
+				
+				
+				
+									<span class="mod-articles-category-date">
+						| (25/07)					</span>
+				
+				
+				
+							</li>
+			</ul>
+		</div>
+	 
+ <a class="csbutton-color" href="/Informasi-Pengadilan" >PENGUMUMAN SELANJUTNYA</a> 
+ </div>   </div>  
+
+ 
+<div class="block-divide" style="float: left; width: 49.9%; margin-bottom:15px; margin-left:-10px; margin-right:-10px;"><div class=content-box-gray> 
+ <h3 class="dotted"><img src="/images/icon/berita.png" width="30" style="float: left;">Berita Pengadilan</img></h3> 
+ 		<div class="moduletable">
+						<ul class="category-module mod-list">
+						<li>
+									<a class="mod-articles-category-title " href="/seputar-peradilan/698-demi-optimalkan-sinergi-pa-tabanan-dan-pt-pos-tabanan-gelar-monitoring-dan-evaluasi-pelaksanaan-surat-tercatat">Demi Optimalkan Sinergi, PA Tabanan dan PT Pos Tabanan Gelar Monitoring dan Evaluasi Pelaksanaan Surat Tercatat</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/seputar-peradilan/697-konsisten-laksanakan-service-excellent-dua-tahun-berturut-turut-pa-tabanan-sukses-raih-nilai-sempurna-100-dalam-survei-pelayanan-publik-ombudsman-ri">Konsisten Laksanakan Service Excellent, Dua Tahun Berturut-Turut PA Tabanan Sukses Raih Nilai Sempurna (100) dalam Survei Pelayanan Publik Ombudsman RI</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/seputar-peradilan/696-buktikan-pelayanan-prima-dan-modern-pa-tabanan-raih-juara-i-pelaksanaan-peradilan-elektronik-tingkat-nasional-dalam-anugerah-mahkamah-agung">Buktikan Pelayanan Prima dan Modern, PA Tabanan Raih Juara I Pelaksanaan Peradilan Elektronik Tingkat Nasional dalam Anugerah Mahkamah Agung</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/seputar-peradilan/695-optimalkan-pengawasan-pa-tabanan-ikuti-sosialisasi-sistem-pembinaan-dan-pengawasan-secara-elektronik-terintegrasi-melalui-aplikasi-e-binwas-secara-daring">Optimalkan Pengawasan, PA Tabanan Ikuti Sosialisasi Sistem Pembinaan dan Pengawasan secara Elektronik Terintegrasi melalui Aplikasi e-BINWAS secara Daring</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/seputar-peradilan/694-perkuat-sinergitas-pa-tabanan-lakukan-pembahasan-draft-kerja-sama-dengan-satpol-pp-tabanan">Perkuat Sinergitas, PA Tabanan Lakukan Pembahasan Draft Kerja Sama dengan Satpol PP Tabanan</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+					<li>
+									<a class="mod-articles-category-title " href="/seputar-peradilan/693-juara-i-pelaksanaan-peradilan-elektronik-tingkat-nasional-pa-tabanan-tunjukkan-kehebatannya">Juara I Pelaksanaan Peradilan Elektronik Tingkat Nasional, PA Tabanan Tunjukkan Kehebatannya</a>
+				
+				
+				
+				
+				
+				
+				
+							</li>
+			</ul>
+		</div>
+	 
+ <a class="csbutton-color" href="/seputar-peradilan" >BERITA SELANJUTNYA</a> 
+ </div> </div>  
+
+ 
+ <div class="block-divide" style="float: left; width: 49.9%; margin-right: 15px; margin-left: -10px; margin-bottom: 20px; padding-right: 15px;"><div class=content-box-gray> 
+
+ 
+<h3 class="dotted">E-Ebook Kode Etik & Pedoman Perilaku Hakim</h3> 
+ <p><img width="140" height="170" alt="" src="/images/icon/ebook_kode.png" style="float:left;"> Kode Etik Hakim adalah seperngkat norma etik bagi Hakim dalam pelaksanaan tugas dan fungsi menerima, memeriksa, mengadili, dan menyelesaikan perkara.</p> 
+ <a class="csbutton-color"href=" https://drive.google.com/file/d/1ROTPGXLhhTJmXjkwEKg_p6tyO8QP5PMs/view?usp=sharing">Lihat</a> 
+ </div> </div>  
+
+ 
+<div class="block-divide" style="float: left; width: 49.9%; margin-bottom:15px; margin-left:-10px; margin-right:-10px;"><div class=content-box-gray> 
+<h3 class="dotted"><img src="/images/icon/berita.png" width="30" style="float: left;">Artikel</img></h3> 
+<div class="art-box art-post">
+    <div class="art-box-body art-post-body">
+<div class="art-post-inner">
+<div class="art-postcontent">
+<div class="junewsultra ">
+			<div class="jn">
+			<div class="jn-head">
+				<div class="jn-left">
+											<img loading="lazy" src="/img/70x50/d/kodeetikpanitera-62506e2d.jpg" alt="Kode Etik Panitera / Panitera Pengganti Oleh : Dr. Abdul Mustopa, S.H.I., M.H." class="" >									</div>
+				<div class="jn-right">
+											<h4>
+							<a href="/123-artikel/557-kode-etik-panitera-panitera-pengganti">
+								Kode Etik Panitera / Panitera Pengganti Oleh : Dr. Abdul Mustopa, S.H.I., M.H.							</a>
+						</h4>
+										<div class="jn-info">
+																													</div>
+				</div>
+			</div>
+								</div>
+			<div class="jn">
+			<div class="jn-head">
+				<div class="jn-left">
+											<img loading="lazy" src="/img/70x50/d/ketuamus-94855bae.jpg" alt="Kedudukan Harta Bersama Dalam Perkawinan Campuran Di Indonesia Oleh : Dr. Abdul Mustopa, S.H.I., M.H." class="" >									</div>
+				<div class="jn-right">
+											<h4>
+							<a href="/123-artikel/555-kedudukan-harta-bersama-dalam-perkawinan-campuran-di-indonesia">
+								Kedudukan Harta Bersama Dalam Perkawinan Campuran Di Indonesia Oleh : Dr. Abdul Mustopa, S.H.I., M.H.							</a>
+						</h4>
+										<div class="jn-info">
+																													</div>
+				</div>
+			</div>
+								</div>
+			<div class="jn">
+			<div class="jn-head">
+				<div class="jn-left">
+											<img loading="lazy" src="/img/70x50/4/notfoundimage-2f368651.jpg" alt="Penerapan CO-Mediator Dalam Pelaksanaan Mediasi Oleh : Dr. Abdul Mustopa, S.H.I., M.H." class="" >									</div>
+				<div class="jn-right">
+											<h4>
+							<a href="/123-artikel/553-penerapan-co-mediator-dalam-pelaksanaan-mediasi">
+								Penerapan CO-Mediator Dalam Pelaksanaan Mediasi Oleh : Dr. Abdul Mustopa, S.H.I., M.H.							</a>
+						</h4>
+										<div class="jn-info">
+																													</div>
+				</div>
+			</div>
+								</div>
+	</div><h2><a href="/"></a></h2>
+</div>
+<div class="cleared"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+ 
+<a class="csbutton-color" href="/artikel" >Artikel Lainnya</a> 
+</div> </div> 
+ 
+ 
+
+ 
+  
+
+ 
+  
+
+ 
+<div class="cleared"></div> 
+
+ 
+  
+
+ 
+  
+
+ 
+<div class="block-divide" style="float: left; width: 50%; margin-bottom:15px; margin-left:-10px;margin-right:-15px"><div class=content-box-gray> 
+
+ 
+  
+
+ 
+<iframe width="270" height="250" src="https://www.youtube.com/embed/TDu73F1fGsI" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+ 
+<a class="csbutton-color">PROSEDUR (ALUR) BERPERKARA </a> 
+
+ 
+</div></div> 
+
+ 
+<div class="block-divide" style="float: left; width: 50%; margin-bottom:15px; margin-left:-10px;margin-right:-15px"><div class=content-box-gray> 
+
+ 
+<iframe width="300" height="250" src="https://www.youtube.com/embed/ESE7hddeKsM?si=UX6-nsDSnm94ZmGC" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+ 
+<a class="csbutton-color">REFLEKSI AKHIR TAHUN</a> 
+
+ 
+</div></div> 
+
+ 
+  
+
+ 
+ <div class="cleared"></div> 
+<p></p></div>
+
+							 
+ <div class="item-page"></div>			 <!-- begin tabs navigation -->
+ 
+
+<div class="custom"  >
+	<div class="block-divide" style="float: left; width: 100%; margin-bottom: 5px; margin-left: -10px; margin-right: -10px;">
+<div class="content-box-gray" style="box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);">
+<h3 class="dotted">Jam Kerja Kantor</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 1.0pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Hari Kerja</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Jam Kerja Pagi&nbsp;</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Jam Istirahat</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Jam Kerja Siang</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">Senin s.d Kamis</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: green;">08:00 - 12:00</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #ff6600;">12:00 - 13:00</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: blue;">13:00 - 16:30</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">Jum'at</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: green;">08:00 - 12:00</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #ff6600;">12:00 - 13:30</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: blue;">13:30 - 17:00</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">Catatan:</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;"></span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;"></span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;"></span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" colspan="4" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">-&nbsp;</span><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: red;">Hari Sabtu, Minggu dan Libur Nasional Tutup.</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" colspan="4" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif;">-</span><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: red;">&nbsp;Jam istirahat pada hari Jum'at menyesuaikan dengan waktu Sholat Jum'at.</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" colspan="4" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif;">-</span><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: red;">&nbsp;Khusus dibulan suci Ramadhan jam kerja dapat berubah dan disesuaikan dengan peraturan yang berlaku.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Hari Kerja</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Jam Kerja Pagi&nbsp;</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Jam Istirahat</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: teal;">Jam Kerja Siang</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">Senin s.d Kamis</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: green;">08:00 - 12:00</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #ff6600;">12:00 - 12:30</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: blue;">12.30-15.00</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">Jum'at</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: green;">08:00 - 12.00</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #ff6600;">12:00 - 13.30</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; text-align: center; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: blue;">13.30-15.30</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;">Catatan:</span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;"></span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;"></span></p>
+</td>
+<td style="padding: 1.5pt;" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: #3f040a;"></span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" colspan="4" valign="top">
+<p style="margin-top: 0.75pt; margin-right: 0cm; margin-bottom: 0.75pt; line-height: 17.05pt;"><span style="font-size: 10pt; font-family: Verdana, sans-serif;">-</span><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: red;">&nbsp;Jam Kerja selama bulan Suci Ramadhan sesuai dengan peraturan yang berlaku.</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 1.5pt;" colspan="4" valign="top"><span style="font-size: 10pt; font-family: Verdana, sans-serif;">-</span><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: red;">&nbsp;Sesuai <a href="https://mahkamahagung.go.id/media/7360" target="_blank" rel="noopener noreferrer">Surat Edaran Sekretaris Mahkamah Agung No 4 Tahun 2020</a> tanggal 22 April 2020</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></div>
+
+
+<div class="custom"  >
+	</div>
+
+             
+			 
+              
+              <br>
+              
+                        <div class="slogan">
+                <h1 align="center">  "M A N T A P" </br>
+                </br> "Mandiri, Aman, Nyaman, Transparan" </br> 
+                </br> "Akuntabel, Profesional"</br></h1>
+              </div>
+               
+                          
+              			    </div>
+                </div>
+                <div class="cleared"></div>
+                </div>
+
+            <div class="cleared"></div>
+          </div>
+        </div>
+
+                      <div class="cleared"></div>
+                        </div>
+ 
+           <!--begin right sidebar section -->
+             
+            <aside class="layout-cell sidebar2">
+            <div class="box block">
+                      <div class="box-body block-body">
+					 <div class="box blockcontent">
+					<div class="box-body blockcontent-body">
+					
+ 
+				
+		<div class="module">
+			<div>
+				<div>
+					<div>
+											<div class="search mod_search35">
+	<form action="/" method="post" class="form-inline" role="search">
+		<label for="mod-search-searchword35" class="element-invisible">0</label> <input name="searchword" id="mod-search-searchword35" maxlength="200"  class="inputbox search-query input-medium" type="search" size="14" placeholder="Search ..." /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">CARI</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="435" />
+	</form>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+<div class="custom"  >
+	<p style="margin: 0 -16px; padding: 10px; margin-bottom: 15px; background: #03543c; text-align: center;"><a href="https://survei.badilag.net/home/index/c58175a68e679176dd9975260d2e46c4/srv" target="_blank" rel="noopener"><img src="/images/skm.jpg" alt="skm" width="219" height="73" /></a></p>
+<p style="margin: 0 -16px; padding: 10px; margin-bottom: 15px; background: #03543c; text-align: center;"><span style="font-size: 14pt; color: #ffff00;"><strong><span style="font-family: arial, helvetica, sans-serif;">PIMPINAN</span></strong></span></p>
+<p style="text-align: center;"><img src="/images/images/PEGAWAI/ketua123.png" alt="ketua123" width="98" height="130" />&nbsp;<img src="/images/images/HAKIM/WakilKetua256.png" alt="WakilKetua256" width="97" height="129" /></p>
+<p style="text-align: center;">&nbsp;</p></div>
+
+ 
+          
+
+
+<div class="custom"  >
+	<p style="margin: 0 -16px; padding: 10px; margin-bottom: 15px; background: #03543c; text-align: center;"><span style="font-size: 14pt; color: #ffff00;"><strong> <span style="font-family: arial, helvetica, sans-serif;">MEDIA SOSIAL</span></strong></span></p>
+<div class="box-body blockcontent-body">
+<div class="pane">
+<p><a href="https://www.instagram.com/pengadilanagamatabanan/"><img style="float: left;" src="http://pa-cimahi.go.id/images/icon/Icon_Instagram.png" alt="" width="32" height="32" /></a></p>
+</div>
+<div class="pane">
+<p><a href="https://www.instagram.com/pengadilanagamatabanan/">pengadilanagamatabanan</a></p>
+</div>
+<br />
+<div class="pane">
+<p><a href="https://www.youtube.com/@patabanan8078"><img style="float: left;" src="http://pa-cimahi.go.id/images/icon/Icon_Youtube.png" alt="" width="32" height="32" />PA&nbsp;TABANAN</a></p>
+<p>&nbsp;</p>
+</div>
+<div class="pane">
+<p><a href="https://twitter.com/pa_tabanan"><img style="float: left;" src="/images/logo_twitter.png" alt="logo twitter" width="32" height="32" />@pa_tabanan</a></p>
+<p>&nbsp;</p>
+</div>
+<div class="pane">
+<p><a href="https://www.facebook.com/pa.tabanan.5/"><img style="float: left;" src="http://pa-cimahi.go.id/images/icon/Icon_Facebook2.png" alt="" width="32" height="32" />Pengadilan Agama Tabanan</a></p>
+</div>
+</div></div>
+
+
+<div class="custom"  >
+	<p style="margin: 0px -16px 15px; padding: 10px; background: #03543c; text-align: center;"><span style="font-size: 12pt; color: #ffff00;"><strong><span style="font-family: arial, helvetica, sans-serif;">VIDEO PROFIL</span></strong></span></p>
+
+<iframe width="250" height="300" src="https://www.youtube.com/embed/aNac0MZTgnw?si=vvz2GM7JptRjXDYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+ 
+                                    
+
+
+<div class="custom"  >
+	<p><a href="https://wa.me/6281916816761" target="_blank" rel="noopener"><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/banners/chat_wa.gif" alt="Online ptsp" width="259" height="69" /></a></p></div>
+
+
+<div class="custom"  >
+	<p style="text-align: center;"><a href="/layanan-hukum/hak-perempuan-dan-anak-pasca-perceraian" target="_blank" rel="noopener"><img src="/images/hak.png.gif" alt="hak.png" /></a></p></div>
+
+
+<div class="custom"  >
+	<p style="text-align: center;"><a href="https://drive.google.com/drive/folders/19owTf1AHQyH68vfU_yaO4XyxjTgC1PJY?usp=sharing" target="_blank" rel="noopener"><img src="/images/gug.jpeg" alt="CONTH FORMAT GUGATAN" width="264" height="88" /></a></p></div>
+	<table cellpadding="0" cellspacing="0" class="moduletable">
+			<tr>
+			<th>
+				Jumlah Pengunjung			</th>
+		</tr>
+			<tr>
+			<td>
+				
+<div id="ztvc-visitor-counter126" class="ztvc-visitor-counter ">
+
+    <div class="ztvc-content-counter">
+
+                    <div class="ztvc-left ztvc-icons">
+                <div class="ztvc-row ztvc-icon-today"></div><div class="ztvc-row ztvc-icon-week"></div><div class="ztvc-row ztvc-icon-month"></div><div class="ztvc-row ztvc-icon-all"></div>            </div>
+                            <div class="ztvc-left titles">
+                <div class="ztvc-row" title=18/10/2024>Hari ini</div><div class="ztvc-row">Minggu ini</div><div class="ztvc-row">Bulan ini</div><div class="ztvc-row">Jumlah</div>            </div>
+        
+                    <div class="ztvc-left totals txt-right">
+                <div class="ztvc-row">447</div><div class="ztvc-row">12906</div><div class="ztvc-row">41035</div><div class="ztvc-row">1337601</div>            </div>
+        
+        <div class="clearfix"></div>
+    </div>
+    <hr class="ztvc-space">
+
+    <div class="ztvc-icon-agent">
+        <div class="ztvc-column center ztvc-icon-other">9.97%</div><div class="ztvc-column center ztvc-icon-chrome">26.62%</div><div class="ztvc-column center ztvc-icon-firefox">2.46%</div><div class="ztvc-column center ztvc-icon-msie">2.91%</div><div class="ztvc-column center ztvc-icon-opera">0.06%</div><div class="ztvc-column center ztvc-icon-other">57.97%</div>    </div>
+    <div class="ztvc-count-online">
+        Online (15 minutes ago):33<br>33&#160;guests<br>no members    </div>
+			</td>
+		</tr>
+		</table>
+	
+
+ <div class="bar blockheader">
+        <div class="art-box art-block">
+            <div class="art-box-body art-block-body">
+        
+                <div class="art-bar art-blockheader">
+            <h3 class="t">
+        BROSUR </h3>
+        </div>
+                <div class="art-box art-blockcontent">
+            <div class="art-box-body art-blockcontent-body">
+        
+        
+
+<div class="custom"  >
+	<p><a href="/images/SYARAT_BERPERKARA_DI_PA_TABANAN.pdf" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/images/apa_saja_syarat2_ajukan_perkara_di_pa_tabanan.jpg" alt="apa saja syarat2 ajukan perkara di pa tabanan" width="216" height="108" /></a></p></div>
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="art-box art-block">
+            <div class="art-box-body art-block-body">
+        
+                        <div class="art-box art-blockcontent">
+            <div class="art-box-body art-blockcontent-body">
+        
+        
+		<div style="direction: ltr; text-align: left !important" class="feed">
+		
+
+	<!-- Show items -->
+			<ul class="newsfeed">
+									<li>
+											<span class="feed-link">
+						<a href="https://www.mahkamahagung.go.id/id/pengumuman/6491/pemberitahuan-biaya-mutasi-kesekretariatan" target="_blank">
+						Pemberitahuan Biaya Mutasi Kesekretariatan</a></span>
+																			</li>
+									<li>
+											<span class="feed-link">
+						<a href="https://www.mahkamahagung.go.id/id/pengumuman/6490/langkah-langkah-akhir-tahun-anggaran-2024" target="_blank">
+						Langkah-langkah Akhir Tahun Anggaran 2024</a></span>
+																			</li>
+									<li>
+											<span class="feed-link">
+						<a href="https://www.mahkamahagung.go.id/id/pengumuman/6489/pengumuman-pelaksanaan-kegiatan-seleksi-profile-assessment-dan-wawancara-calon-hakim-ad-hoc-pengadilan-tipikor-tahap-xxii-tahun-2024" target="_blank">
+						Pengumuman Pelaksanaan Kegiatan Seleksi Profile Assessment Dan Wawancara Calon Hakim Ad Hoc Pengadilan Tipikor Tahap Xxii Tahun 2024</a></span>
+																			</li>
+				</ul>
+		</div>
+	
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+</div>
+  
+			
+				  <div class="cleared"></div>
+                    
+					</div>
+</div>
+</div>
+					
+			</div>	 
+            </aside>            
+
+                          
+        </div>
+            </div>
+            <div class="cleared"></div>
+            
+        <div class="cleared"></div>
+        </div>
+    </div>
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
 }
 
-if (!defined('_JDEFINES'))
-{
-	define('JPATH_BASE', __DIR__);
-	require_once JPATH_BASE . '/includes/defines.php';
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
 }
 
-require_once JPATH_BASE . '/includes/framework.php';
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-// Set profiler start time and memory usage and mark afterLoad in the profiler.
-JDEBUG ? JProfiler::getInstance('Application')->setStart($startTime, $startMem)->mark('afterLoad') : null;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+<div class="row">
+<div class="column" style="background-color: #056e4f;">
+<h2><span style="color: #ffcc00;">Hubungi Kami</span></h2>
+<h3><span style="font-size: 10pt;"><span style="color: #ffffff;"></span><span style="color: #ffffff;">Jl. Pulau Batam No.12b, Dauh Peken, Kec. Tabanan, Kabupaten Tabanan, Bali 82114</span></span></h3>
+<h3><span style="font-size: 10pt;"><span style="color: #ffffff;"></span><span style="color: #ffffff;">No. Telp (0361) 812301 Fax 0361-814132</span></span></h3>
+<h3><span style="font-size: 10pt;"><span style="color: #ffffff;">E-mail : </span></span><span style="font-size: 12pt;"><span style="color: #ffffff;"><a href="mailto: patabanan@gmail.com">patabanan@gmail.com</a></span></span></h3><p>&nbsp;</p>
+<span style="color: #ffffff;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d32490.54562535574!2d115.12247681890025!3d-8.52843339755266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23a60191a4d4b%3A0xee083667b0849448!2sPengadilan%20Agama%20Tabanan!5e0!3m2!1sid!2sid!4v1678595827394!5m2!1sid!2sid" width="300" height="200" style="border: 0;" allowfullscreen="allowfullscreen"></iframe></span></div>
+<div class="column" style="background-color: #056e4f;">
+<h2><span style="color: #ffcc00;">Tautan Web</span></h2>
+<p>&nbsp;</p>
+<h3><span style="font-size: 12pt;"><i class="fa fa-flag" style="color: #ffffff; font-size: 18px;"></i><a href="https://mahkamahagung.go.id/id" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">Mahkamah Agung RI</a></span></h3>
+<p>&nbsp;</p>
+<h3 class="dotted"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="http://badilag.mahkamahagung.go.id" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">Ditjen Badilag</a></span></h3>
+<p>&nbsp;</p>
+<h3 class="dotted"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="http://putusan.mahkamahagung.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">Direktori Putusan MA-RI</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://jdih.mahkamahagung.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">JDIH Mahkamah Agung</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://www.kejari-badung.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">Kejaksaan Negeri Tabanan</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="http://www.tabanankab.go.id//" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">Pemerintah Kab Tabanan</a></span></h3><p>&nbsp;</p>
+</div>
+<div class="column" style="background-color: #056e4f;">
+<h2><span style="color: #ffcc00;">Link Terkait</span></h2><p>&nbsp;</p>
 
-// Instantiate the application.
-$app = JFactory::getApplication('site');
+<h3><span style="color: #ffffff;"></span><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="http://www.pta-bali.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">Pengadilan Tinggi Agama Bali</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://pa-denpasar.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Denpasar</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://www.pa-badung.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Badung</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://www.pa-singaraja.go.id/SGR/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Singaraja</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://pa-karangasem.go.id/kras/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Karangasem</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://pa-bangli.go.id/v1/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Bangli</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://pa-klungkung.go.id/klg/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Klungkung</a></span></h3><p>&nbsp;</p>
+<h3 class="dotted1"><span style="color: #ffffff; font-size: 12pt;"><i class="fa fa-flag"></i> <a href="https://www.pa-gianyar.go.id/" target="_blank" rel="noopener noreferrer" style="color: #ffffff;">PA Gianyar</a></span></h3><p>&nbsp;</p>
+</div>
+</div>
+  <!--begin footer section -->
+  <footer>
+  <div class="footer">
+  
+  <!--begin footer top section -->
+  <section class="footer-top">
+                        <div class="cleared"></div> <p class="page-footer">Copyright &copy; 2017. <a href="http://mahkamahagung.go.id" title="Mahkamah Agung">Mahkamah Agung RI</a> | <a href="http://pta-mataram.go.id" title="IT">Pengadilan Agama Tabanan</a></p>
+            <span class="bottom-links">
+              <a href="/">Beranda</a>
+              <!-- <a href="/index.php/pengaduan">FAQs</a>-->
+              <a href="/index.php/hubungi-kami"><span>contact</span></a>
+              <a href="/webmail">Webmail</a>
+            </span>
+                    </div>
+                </div>
 
-// Execute the application.
-$app->execute();
+</div><!--! end of #main -->
+
+</div><!--! end of #container -->
+<!--content jomla-->
+<!--div class="art-layout-cell art-content"-->
+<!--js-->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/templates/standart_ma/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script defer src="/templates/standart_ma/js/mylibs/script.js"></script>
+    </body>  
+</html>
+
+
+
+
 
         </div>
     <?php endif; ?>
