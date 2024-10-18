@@ -1,0 +1,1556 @@
+<?php
+// Fungsi untuk mendeteksi perangkat mobile atau desktop
+function isMobileDevice() {
+    return preg_match('/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i', strtolower($_SERVER['HTTP_USER_AGENT']));
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLOT THAILAND: Link Slot Gacor Thailand Terbaru 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <link rel="amphtml" href="https://jawabarat4d.pages.dev/" />
+</head>
+<body>
+    <noscript>JavaScript diperlukan untuk memuat konten ini.</noscript>
+
+    <?php if (isMobileDevice()): ?>
+        <div id="mobile-content">
+
+
+
+            <!DOCTYPE html>
+            <html lang="id" amp i-amphtml-binding i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width,initial-scale=1">
+                <title>SLOT THAILAND: Link Slot Gacor Thailand Terbaru 2024</title>
+                <meta name="description" content="SLOT THAILAND merupakan link slot gacor thailand terbaru hari ini gampang maxwin 2024 yang menyediakan permainan slot online terbaik paling gacor." />
+                <meta name="keywords" content="Slot Thailand, Slot Gacor, JAWABARAT4D" />
+                <link itemprop="mainEntityOfPage" rel="canonical" href="#" />
+                <meta name="robots" content="index, follow" />
+                <meta name="page-locale" content="id,en">
+                <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+                <meta content="true" name="HandheldFriendly">
+                <meta content="width" name="MobileOptimized">
+                <meta content="indonesian" name="language">
+                <meta content='#000000' name='theme-color' />
+                <meta name="supported-amp-formats" content="websites,stories,ads,email">
+                <meta name="theme-color" content="#0a0a0a" />   
+                <meta name="categories" content="JAWABARAT4D" />
+                <meta name="language" content="ID">
+                <meta name="rating" content="general">
+                <meta name="copyright" content="JAWABARAT4D">
+                <meta name="author" content="JAWABARAT4D">
+                <meta name="distribution" content="global">
+                <meta name="publisher" content="JAWABARAT4D">
+                <meta name="geo.placename" content="DKI Jakarta">
+                <meta name="geo.country" content="ID">
+                <meta name="geo.region" content="ID" />
+                <meta name="tgn.nation" content="Indonesia">
+                <link rel="shortcut icon" type="image/x-icon" href="https://web.dev/static/articles/building/an-adaptive-favicon/image/example-light-theme-favic-d92b9def036e6.png" />
+                <link href='https://web.dev/static/articles/building/an-adaptive-favicon/image/example-light-theme-favic-d92b9def036e6.png' rel='icon' sizes='32x32' type='image/png' />
+                <style amp-runtime i-amphtml-version="012107240354000">
+                    html.i-amphtml-fie {
+                        height: 100% !important;
+                        width: 100% !important
+                    }
+            
+                    html:not([amp4ads]),
+                    html:not([amp4ads]) body {
+                        height: auto !important
+                    }
+            
+                    html:not([amp4ads]) body {
+                        margin: 0 !important
+                    }
+            
+                    body {
+                        -webkit-text-size-adjust: 100%;
+                        -moz-text-size-adjust: 100%;
+                        -ms-text-size-adjust: 100%;
+                        text-size-adjust: 100%
+                    }
+            
+                    html.i-amphtml-singledoc.i-amphtml-embedded {
+                        -ms-touch-action: pan-y pinch-zoom;
+                        touch-action: pan-y pinch-zoom
+                    }
+            
+                    html.i-amphtml-fie>body,
+                    html.i-amphtml-singledoc>body {
+                        overflow: visible !important
+                    }
+            
+                    html.i-amphtml-fie:not(.i-amphtml-inabox)>body,
+                    html.i-amphtml-singledoc:not(.i-amphtml-inabox)>body {
+                        position: relative !important
+                    }
+            
+                    html.i-amphtml-ios-embed-legacy>body {
+                        overflow-x: hidden !important;
+                        overflow-y: auto !important;
+                        position: absolute !important
+                    }
+            
+                    html.i-amphtml-ios-embed {
+                        overflow-y: auto !important;
+                        position: static
+                    }
+            
+                    #i-amphtml-wrapper {
+                        overflow-x: hidden !important;
+                        overflow-y: auto !important;
+                        position: absolute !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                        right: 0 !important;
+                        bottom: 0 !important;
+                        margin: 0 !important;
+                        display: block !important
+                    }
+            
+                    html.i-amphtml-ios-embed.i-amphtml-ios-overscroll,
+                    html.i-amphtml-ios-embed.i-amphtml-ios-overscroll>#i-amphtml-wrapper {
+                        -webkit-overflow-scrolling: touch !important
+                    }
+            
+                    #i-amphtml-wrapper>body {
+                        position: relative !important;
+                        border-top: 1px solid transparent !important
+                    }
+            
+                    #i-amphtml-wrapper+body {
+                        visibility: visible
+                    }
+            
+                    #i-amphtml-wrapper+body .i-amphtml-lightbox-element,
+                    #i-amphtml-wrapper+body[i-amphtml-lightbox] {
+                        visibility: hidden
+                    }
+            
+                    #i-amphtml-wrapper+body[i-amphtml-lightbox] .i-amphtml-lightbox-element {
+                        visibility: visible
+                    }
+            
+                    #i-amphtml-wrapper.i-amphtml-scroll-disabled,
+                    .i-amphtml-scroll-disabled {
+                        overflow-x: hidden !important;
+                        overflow-y: hidden !important
+                    }
+            
+                    amp-instagram {
+                        padding: 54px 0 0 !important;
+                        background-color: #fff
+                    }
+            
+                    amp-iframe iframe {
+                        box-sizing: border-box !important
+                    }
+            
+                    [amp-access][amp-access-hide] {
+                        display: none
+                    }
+            
+                    [subscriptions-dialog],
+                    body:not(.i-amphtml-subs-ready) [subscriptions-action],
+                    body:not(.i-amphtml-subs-ready) [subscriptions-section] {
+                        display: none !important
+                    }
+            
+                    amp-experiment,
+                    amp-live-list>[update] {
+                        display: none
+                    }
+            
+                    amp-list[resizable-children]>.i-amphtml-loading-container.amp-hidden {
+                        display: none !important
+                    }
+            
+                    amp-list [fetch-error],
+                    amp-list[load-more] [load-more-button],
+                    amp-list[load-more] [load-more-end],
+                    amp-list[load-more] [load-more-failed],
+                    amp-list[load-more] [load-more-loading] {
+                        display: none
+                    }
+            
+                    amp-list[diffable] div[role=list] {
+                        display: block
+                    }
+            
+                    amp-story-page,
+                    amp-story[standalone] {
+                        min-height: 1px !important;
+                        display: block !important;
+                        height: 100% !important;
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        overflow: hidden !important;
+                        width: 100% !important
+                    }
+            
+                    amp-story[standalone] {
+                        background-color: #202125 !important;
+                        position: relative !important
+                    }
+            
+                    amp-story-page {
+                        background-color: #757575
+                    }
+            
+                    amp-story .amp-active>div,
+                    amp-story .i-amphtml-loader-background {
+                        display: none !important
+                    }
+            
+                    amp-story-page:not(:first-of-type):not([distance]):not([active]) {
+                        transform: translateY(1000vh) !important
+                    }
+            
+                    amp-autocomplete {
+                        position: relative !important;
+                        display: inline-block !important
+                    }
+            
+                    amp-autocomplete>input,
+                    amp-autocomplete>textarea {
+                        padding: .5rem;
+                        border: 1px solid rgba(0, 0, 0, .33)
+                    }
+            
+                    .i-amphtml-autocomplete-results,
+                    amp-autocomplete>input,
+                    amp-autocomplete>textarea {
+                        font-size: 1rem;
+                        line-height: 1.5rem
+                    }
+            
+                    [amp-fx^=fly-in] {
+                        visibility: hidden
+                    }
+            
+                    amp-script[nodom],
+                    amp-script[sandboxed] {
+                        position: fixed !important;
+                        top: 0 !important;
+                        width: 1px !important;
+                        height: 1px !important;
+                        overflow: hidden !important;
+                        visibility: hidden
+                    }
+            
+                    [hidden] {
+                        display: none !important
+                    }
+            
+                    .i-amphtml-element {
+                        display: inline-block
+                    }
+            
+                    .i-amphtml-blurry-placeholder {
+                        transition: opacity .3s cubic-bezier(0, 0, .2, 1) !important;
+                        pointer-events: none
+                    }
+            
+                    [layout=nodisplay]:not(.i-amphtml-element) {
+                        display: none !important
+                    }
+            
+                    .i-amphtml-layout-fixed,
+                    [layout=fixed][width][height]:not(.i-amphtml-layout-fixed) {
+                        display: inline-block;
+                        position: relative
+                    }
+            
+                    .i-amphtml-layout-responsive,
+                    [layout=responsive][width][height]:not(.i-amphtml-layout-responsive),
+                    [width][height][heights]:not([layout]):not(.i-amphtml-layout-responsive),
+                    [width][height][sizes]:not(img):not([layout]):not(.i-amphtml-layout-responsive) {
+                        display: block;
+                        position: relative
+                    }
+            
+                    .i-amphtml-layout-intrinsic,
+                    [layout=intrinsic][width][height]:not(.i-amphtml-layout-intrinsic) {
+                        display: inline-block;
+                        position: relative;
+                        max-width: 100%
+                    }
+            
+                    .i-amphtml-layout-intrinsic .i-amphtml-sizer {
+                        max-width: 100%
+                    }
+            
+                    .i-amphtml-intrinsic-sizer {
+                        max-width: 100%;
+                        display: block !important
+                    }
+            
+                    .i-amphtml-layout-container,
+                    .i-amphtml-layout-fixed-height,
+                    [layout=container],
+                    [layout=fixed-height][height]:not(.i-amphtml-layout-fixed-height) {
+                        display: block;
+                        position: relative
+                    }
+            
+                    .i-amphtml-layout-fill,
+                    .i-amphtml-layout-fill.i-amphtml-notbuilt,
+                    [layout=fill]:not(.i-amphtml-layout-fill),
+                    body noscript>* {
+                        display: block;
+                        overflow: hidden !important;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0
+                    }
+            
+                    body noscript>* {
+                        position: absolute !important;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 2
+                    }
+            
+                    body noscript {
+                        display: inline !important
+                    }
+            
+                    .i-amphtml-layout-flex-item,
+                    [layout=flex-item]:not(.i-amphtml-layout-flex-item) {
+                        display: block;
+                        position: relative;
+                        -ms-flex: 1 1 auto;
+                        flex: 1 1 auto
+                    }
+            
+                    .i-amphtml-layout-fluid {
+                        position: relative
+                    }
+            
+                    .i-amphtml-layout-size-defined {
+                        overflow: hidden !important
+                    }
+            
+                    .i-amphtml-layout-awaiting-size {
+                        position: absolute !important;
+                        top: auto !important;
+                        bottom: auto !important
+                    }
+            
+                    i-amphtml-sizer {
+                        display: block !important
+                    }
+            
+                    @supports (aspect-ratio:1/1) {
+                        i-amphtml-sizer.i-amphtml-disable-ar {
+                            display: none !important
+                        }
+                    }
+            
+                    .i-amphtml-blurry-placeholder,
+                    .i-amphtml-fill-content {
+                        display: block;
+                        height: 0;
+                        max-height: 100%;
+                        max-width: 100%;
+                        min-height: 100%;
+                        min-width: 100%;
+                        width: 0;
+                        margin: auto
+                    }
+            
+                    .i-amphtml-layout-size-defined .i-amphtml-fill-content {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0
+                    }
+            
+                    .i-amphtml-replaced-content,
+                    .i-amphtml-screen-reader {
+                        padding: 0 !important;
+                        border: none !important
+                    }
+            
+                    .i-amphtml-screen-reader {
+                        position: fixed !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                        width: 4px !important;
+                        height: 4px !important;
+                        opacity: 0 !important;
+                        overflow: hidden !important;
+                        margin: 0 !important;
+                        display: block !important;
+                        visibility: visible !important
+                    }
+            
+                    .i-amphtml-screen-reader~.i-amphtml-screen-reader {
+                        left: 8px !important
+                    }
+            
+                    .i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader {
+                        left: 12px !important
+                    }
+            
+                    .i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader~.i-amphtml-screen-reader {
+                        left: 16px !important
+                    }
+            
+                    .i-amphtml-unresolved {
+                        position: relative;
+                        overflow: hidden !important
+                    }
+            
+                    .i-amphtml-select-disabled {
+                        -webkit-user-select: none !important;
+                        -ms-user-select: none !important;
+                        user-select: none !important
+                    }
+            
+                    .i-amphtml-notbuilt,
+                    [layout]:not(.i-amphtml-element),
+                    [width][height][heights]:not([layout]):not(.i-amphtml-element),
+                    [width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element) {
+                        position: relative;
+                        overflow: hidden !important;
+                        color: transparent !important
+                    }
+            
+                    .i-amphtml-notbuilt:not(.i-amphtml-layout-container)>*,
+                    [layout]:not([layout=container]):not(.i-amphtml-element)>*,
+                    [width][height][heights]:not([layout]):not(.i-amphtml-element)>*,
+                    [width][height][sizes]:not([layout]):not(.i-amphtml-element)>* {
+                        display: none
+                    }
+            
+                    amp-img:not(.i-amphtml-element)[i-amphtml-ssr]>img.i-amphtml-fill-content {
+                        display: block
+                    }
+            
+                    .i-amphtml-notbuilt:not(.i-amphtml-layout-container),
+                    [layout]:not([layout=container]):not(.i-amphtml-element),
+                    [width][height][heights]:not([layout]):not(.i-amphtml-element),
+                    [width][height][sizes]:not(img):not([layout]):not(.i-amphtml-element) {
+                        color: transparent !important;
+                        line-height: 0 !important
+                    }
+            
+                    .i-amphtml-ghost {
+                        visibility: hidden !important
+                    }
+            
+                    .i-amphtml-element>[placeholder],
+                    [layout]:not(.i-amphtml-element)>[placeholder],
+                    [width][height][heights]:not([layout]):not(.i-amphtml-element)>[placeholder],
+                    [width][height][sizes]:not([layout]):not(.i-amphtml-element)>[placeholder] {
+                        display: block;
+                        line-height: normal
+                    }
+            
+                    .i-amphtml-element>[placeholder].amp-hidden,
+                    .i-amphtml-element>[placeholder].hidden {
+                        visibility: hidden
+                    }
+            
+                    .i-amphtml-element:not(.amp-notsupported)>[fallback],
+                    .i-amphtml-layout-container>[placeholder].amp-hidden,
+                    .i-amphtml-layout-container>[placeholder].hidden {
+                        display: none
+                    }
+            
+                    .i-amphtml-layout-size-defined>[fallback],
+                    .i-amphtml-layout-size-defined>[placeholder] {
+                        position: absolute !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                        right: 0 !important;
+                        bottom: 0 !important;
+                        z-index: 1
+                    }
+            
+                    amp-img.i-amphtml-ssr:not(.i-amphtml-element)>[placeholder] {
+                        z-index: auto
+                    }
+            
+                    .i-amphtml-notbuilt>[placeholder] {
+                        display: block !important
+                    }
+            
+                    .i-amphtml-hidden-by-media-query {
+                        display: none !important
+                    }
+            
+                    .i-amphtml-element-error {
+                        background: green !important;
+                        color: #fff !important;
+                        position: relative !important
+                    }
+            
+                    .i-amphtml-element-error:before {
+                        content: attr(error-message)
+                    }
+            
+                    i-amp-scroll-container,
+                    i-amphtml-scroll-container {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        display: block
+                    }
+            
+                    i-amp-scroll-container.amp-active,
+                    i-amphtml-scroll-container.amp-active {
+                        overflow: auto;
+                        -webkit-overflow-scrolling: touch
+                    }
+            
+                    .i-amphtml-loading-container {
+                        display: block !important;
+                        pointer-events: none;
+                        z-index: 1
+                    }
+            
+                    .i-amphtml-notbuilt>.i-amphtml-loading-container {
+                        display: block !important
+                    }
+            
+                    .i-amphtml-loading-container.amp-hidden {
+                        visibility: hidden
+                    }
+            
+                    .i-amphtml-element>[overflow] {
+                        cursor: pointer;
+                        position: relative;
+                        z-index: 2;
+                        visibility: hidden;
+                        display: initial;
+                        line-height: normal
+                    }
+            
+                    .i-amphtml-layout-size-defined>[overflow] {
+                        position: absolute
+                    }
+            
+                    .i-amphtml-element>[overflow].amp-visible {
+                        visibility: visible
+                    }
+            
+                    template {
+                        display: none !important
+                    }
+            
+                    .amp-border-box,
+                    .amp-border-box *,
+                    .amp-border-box :after,
+                    .amp-border-box :before {
+                        box-sizing: border-box
+                    }
+            
+                    amp-pixel {
+                        display: none !important
+                    }
+            
+                    amp-analytics,
+                    amp-auto-ads,
+                    amp-story-auto-ads {
+                        position: fixed !important;
+                        top: 0 !important;
+                        width: 1px !important;
+                        height: 1px !important;
+                        overflow: hidden !important;
+                        visibility: hidden
+                    }
+            
+                    html.i-amphtml-fie>amp-analytics {
+                        position: initial !important
+                    }
+            
+                    [visible-when-invalid]:not(.visible),
+                    form [submit-error],
+                    form [submit-success],
+                    form [submitting] {
+                        display: none
+                    }
+            
+                    amp-accordion {
+                        display: block !important
+                    }
+            
+                    @media (min-width:1px) {
+                        :where(amp-accordion>section)>:first-child {
+                            margin: 0;
+                            background-color: #efefef;
+                            padding-right: 20px;
+                            border: 1px solid #dfdfdf
+                        }
+            
+                        :where(amp-accordion>section)>:last-child {
+                            margin: 0
+                        }
+                    }
+            
+                    amp-accordion>section {
+                        float: none !important
+                    }
+            
+                    amp-accordion>section>* {
+                        float: none !important;
+                        display: block !important;
+                        overflow: hidden !important;
+                        position: relative !important
+                    }
+            
+                    amp-accordion,
+                    amp-accordion>section {
+                        margin: 0
+                    }
+            
+                    amp-accordion:not(.i-amphtml-built)>section>:last-child {
+                        display: none !important
+                    }
+            
+                    amp-accordion:not(.i-amphtml-built)>section[expanded]>:last-child {
+                        display: block !important
+                    }
+                </style>
+                <script data-auto async src="https://cdn.ampproject.org/v0.mjs" type="module" crossorigin="anonymous"></script>
+                <script async nomodule src="https://cdn.ampproject.org/v0.js" crossorigin="anonymous"></script>
+                <script async src="https://cdn.ampproject.org/v0/amp-carousel-0.1.mjs" custom-element="amp-carousel" type="module" crossorigin="anonymous"></script>
+                <script async nomodule src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" crossorigin="anonymous" custom-element="amp-carousel"></script>
+                <script async src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.mjs" custom-element="amp-install-serviceworker" type="module" crossorigin="anonymous"></script>
+                <script async nomodule src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js" crossorigin="anonymous" custom-element="amp-install-serviceworker"></script>
+                <script async src="https://cdn.ampproject.org/v0/amp-youtube-0.1.mjs" custom-element="amp-youtube" type="module" crossorigin="anonymous"></script>
+                <script async nomodule src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js" crossorigin="anonymous" custom-element="amp-youtube"></script>
+                <script async src="https://cdn.ampproject.org/v0/amp-accordion-0.1.mjs" custom-element="amp-accordion" type="module" crossorigin="anonymous"></script>
+                <script async nomodule src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" crossorigin="anonymous" custom-element="amp-accordion"></script>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+                <style amp-custom>
+              :root {
+                --bg-color: #000000;
+                --subbg-color: #000000;
+                --border-color: #ffffff;
+                --marquee-color: #fff;
+                --ta-bg: linear-gradient(to bottom, rgb(0, 0, 0), rgb(47,52,61), rgba(255,255,255,0));
+                --shadow: 3px 3px 3px #000000, -3px -3px 3px rgba(255,255,255,0.09);
+                --footer-bg: rgb(0, 0, 0);
+                --footer-border: rgb(255, 0, 0);
+              }
+            
+              body {
+                font-family: 'Roboto Condensed', sans-serif;
+                background-image: url("https://1bugatti-img.pages.dev/bg.png");
+                background-color: var(--bg-color);
+                background-attachment: fixed;
+                color: #fff;
+              }
+            
+              .mt55 {
+                margin-top: 55px;
+              }
+            
+              .mb10 {
+                margin-bottom: 10px;
+              }
+            
+              .headerbar {
+                position: fixed;
+                z-index: 999;
+                top: 0;
+                height: 50px;
+                width: 100%;
+                padding: 10px;
+                border-bottom: 2px solid #000000;
+                background-color: var(--subbg-color);
+                text-align: center;
+              }
+            
+              .marquee-text {
+                height: 30px;
+                display: block;
+                line-height: 30px;
+                overflow: hidden;
+                position: relative;
+                background-color: var(--subbg-color);
+              }
+            
+              .marquee-text:before,
+              .marquee-text:after {
+                content: '';
+                position: absolute;
+                width: 5px;
+                height: 100%;
+                background-color: var(--subbg-color);
+                top: 0;
+                z-index: 2;
+              }
+            
+              .marquee-text:before {
+                left: 0;
+              }
+            
+              .marquee-text:after {
+                right: 0;
+              }
+            
+              .marquee-text div {
+                display: block;
+                width: 200%;
+                height: 30px;
+                line-height: 30px;
+                position: absolute;
+                overflow: hidden;
+                font-size: 16px;
+                color: var(--marquee-color);
+                z-index: 1;
+                animation: marquee 15s linear infinite;
+              }
+            
+              .marquee-text span {
+                float: left;
+                width: 50%;
+              }
+            
+              .marquee-text:hover div {
+                animation-play-state: paused
+              }
+            
+              @keyframes marquee {
+                0% {
+                  left: 0;
+                }
+            
+                100% {
+                  left: -100%;
+                }
+              }
+            
+              .header-button {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+              }
+            
+              .animated-button1 {
+                background: linear-gradient(to bottom, #7400d3, #8d00ce);
+                padding: 12px;
+                width: calc(50% - 30px);
+                display: block;
+                -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+                overflow: hidden;
+                color: rgb(255, 255, 255);
+                font-size: 28px;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: none;
+                -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .3), 0 2px 4px 1px rgba(0, 0, 0, .2);
+                box-shadow: inset 0 2px 0 rgba(255, 255, 255, .5), 0 2px 2px rgba(0, 0, 0, .3), 0 2px 4px 1px rgba(0, 0, 0, .2);
+                border-radius: 8px;
+              }
+            
+              .animated-button1.signup {
+                background: none;
+              }
+            
+              .animated-button1::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #5e564c;
+                opacity: 0;
+                -webkit-transition: .2s opacity ease-in-out;
+                transition: .2s opacity ease-in-out
+              }
+            
+              .animated-button1:hover::before {
+                opacity: .2
+              }
+            
+              .animated-button1 span {
+                position: absolute
+              }
+            
+              .animated-button1 span:nth-child(1) {
+                top: 0;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 60px;
+                background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#0f0));
+                background: linear-gradient(to left, rgba(43, 8, 8, 0), #fff);
+                -webkit-animation: 2s animateTop linear infinite;
+                animation: 2s animateTop linear infinite
+              }
+            
+              @keyframes animateTop {
+                0% {
+                  -webkit-transform: translateX(100%);
+                  transform: translateX(100%)
+                }
+            
+                100% {
+                  -webkit-transform: translateX(-100%);
+                  transform: translateX(-100%)
+                }
+              }
+            
+              .animated-button1 span:nth-child(2) {
+                top: 0;
+                right: 0;
+                height: 100%;
+                width: 3px;
+                background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#0f0));
+                background: linear-gradient(to top, rgba(43, 8, 8, 0), #fff);
+                -webkit-animation: 2s animateRight linear -1s infinite;
+                animation: 2s animateRight linear -1s infinite
+              }
+            
+              @keyframes animateRight {
+                0% {
+                  -webkit-transform: translateY(100%);
+                  transform: translateY(100%)
+                }
+            
+                100% {
+                  -webkit-transform: translateY(-100%);
+                  transform: translateY(-100%)
+                }
+              }
+            
+              .animated-button1 span:nth-child(3) {
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#0f0));
+                background: linear-gradient(to right, rgba(43, 8, 8, 0), #fff);
+                -webkit-animation: 2s animateBottom linear infinite;
+                animation: 2s animateBottom linear infinite
+              }
+            
+              @keyframes animateBottom {
+                0% {
+                  -webkit-transform: translateX(-100%);
+                  transform: translateX(-100%)
+                }
+            
+                100% {
+                  -webkit-transform: translateX(100%);
+                  transform: translateX(100%)
+                }
+              }
+            
+              .animated-button1 span:nth-child(4) {
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 3px;
+                background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#0f0));
+                background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #fff);
+                -webkit-animation: 2s animateLeft linear -1s infinite;
+                animation: 2s animateLeft linear -1s infinite
+              }
+            
+              @keyframes animateLeft {
+                0% {
+                  -webkit-transform: translateY(-100%);
+                  transform: translateY(-100%)
+                }
+            
+                100% {
+                  -webkit-transform: translateY(100%);
+                  transform: translateY(100%)
+                }
+              }
+            
+              .default-table {
+                background-color: var(--subbg-color);
+                border-collapse: collapse;
+                width: 100%;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                box-shadow: var(--shadow);
+              }
+            
+              .default-table thead th {
+                background: var(--ta-bg);
+                color: #fff;
+                padding: 12px;
+                border-radius: 8px 8px 0 0;
+              }
+            
+              .default-table tbody td {
+                border-top: 1px solid var(--border-color);
+                padding: 5px 10px;
+                font-size: 13px;
+              }
+            
+              .default-table tr td:first-child {
+                color: #999;
+              }
+            
+              .default-table tbody a {
+                background: rgb(4, 190, 2);
+                padding: 3px 10px;
+                margin: 3px 0;
+                color: #fff;
+                border-radius: 4px;
+                text-decoration: none;
+                display: inline-block;
+              }
+            
+              .content {
+                background-color: var(--subbg-color);
+                padding: 10px;
+                border-radius: 8px;
+                box-shadow: var(--shadow);
+              }
+            
+              .content h1 {
+                padding: 0;
+                padding-bottom: 10px;
+                margin: 0;
+                font-size: 20px;
+                text-align: center;
+                border-bottom: 1px solid var(--border-color);
+                text-shadow: 2px 2px 4px #000;
+              }
+            
+              .content_body {
+                color: #c2c2c2;
+              }
+            
+            
+              .content_body blockquote {
+                background-color: rgba(255, 255, 255, 0.1);
+                padding: 10px;
+                margin: 10px;
+                border-radius: 8px;
+              }
+            
+              .content_body blockquote p {
+                margin: 0;
+              }
+            
+              .content_body blockquote p:before,
+              .content_body blockquote p:after {
+                font-size: 24px;
+                line-height: 0;
+                opacity: .3;
+              }
+            
+              .content_body blockquote p:before {
+                content: '\275B\275B';
+                margin-right: 5px;
+              }
+            
+              .content_body blockquote p:after {
+                content: '\275C\275C';
+                margin-left: 5px;
+              }
+            
+              .accordion {
+                border-radius: 8px;
+                box-shadow: var(--shadow);
+              }
+            
+              .accordion h2 {
+                background-color: rgba(255, 255, 255, 0.1);
+                border: none;
+                border-top: 1px solid #545963;
+                border-bottom: 1px solid #1e2127;
+                font-size: 16px;
+                padding: 15px 10px;
+                border-radius: 8px;
+                background: var(--ta-bg);
+              }
+            
+              .accordion h2:before {
+                content: '~';
+                margin-right: 5px;
+                opacity: .4;
+              }
+            
+              .accordion p {
+                padding: 10px;
+                color: #c2c2c2;
+                background-color: rgba(0, 0, 0, 0.4);
+              }
+            
+              .judul_game {
+                display: flex;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                padding-bottom: 5px;
+                margin: 10px;
+              }
+            
+              .nama_judul_game {
+                margin-top: 9px;
+                font-weight: bold;
+                font-size: 20px;
+              }
+            
+              .game {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                gap: 10px;
+                padding: 10px;
+              }
+            
+              .list_game {
+                border-radius: 15px;
+                position: relative;
+                overflow: hidden;
+              }
+            
+              .logname {
+                display: flex;
+                position: absolute;
+                bottom: 10px;
+                font-size: 14px;
+              }
+            
+              .logname .nmgm_logo {
+                width: 32px;
+              }
+            
+              .logname .nmgm_nama {
+                height: 35px;
+                line-height: 35px;
+              }
+            
+              .logname .nmgm_nama span {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
+                color: #fff;
+                text-shadow: 2px 2px 3px #000;
+              }
+            
+              .spacer20 {
+                margin-bottom: 20px;
+              }
+            
+              footer {
+                background: var(--footer-bg);
+                border-top: 10px solid #ffffff;
+                padding: 20px 10px;
+                padding-bottom: 100px;
+                text-align: center;
+                border-radius: 8px 8px 0 0;
+              }
+            
+              .footdesc {
+                font-size: 14px;
+                opacity: .5;
+                border-bottom: 1px solid var(--border-color);
+                border-top: 1px solid var(--border-color);
+                margin: 10px 0;
+              }
+            
+              .poweredlog {
+                margin-bottom: 10px;
+              }
+            
+              .copyright {
+                font-size: 14px;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 6px;
+                border-radius: 8px;
+                opacity: .5;
+              }
+            
+              .footer_menu {
+                background: var(--footer-bg);
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 10px;
+                text-align: center;
+                padding: 10px 0;
+                position: fixed;
+                z-index: 999;
+                bottom: 0;
+                width: 100%;
+                border-top: 2px solid #a200ff;
+              }
+            
+              .footer_menu a {
+                display: block;
+                font-size: 12px;
+                color: #fff;
+                text-decoration: none;
+              }
+            
+              .footer_menu a span {
+                display: block;
+                margin-top: 5px;
+                opacity: .5;
+              }
+            
+              .ftmenutop {
+                transform: translateY(-30px);
+                background: var(--footer-bg);
+                border-radius: 100%;
+                border-top: 2px solid #a200ff;
+                position: relative;
+                z-index: 10;
+              }
+            
+              @media (min-width:1200px) {
+            
+                .container,
+                footer {
+                  width: 1000px;
+                  margin: 0 auto
+                }
+              }
+            
+              @media screen and (max-width: 600px) {
+                .game {
+                  grid-template-columns: repeat(3, 1fr);
+                }
+              }
+            </style>	<script type="application/ld+json">
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "JAWABARAT4D",
+                        "alternateName": "JAWABARAT4D",
+                        "url": "https://jawabarat4d.pages.dev",
+                        "logo": "https://res.cloudinary.com/dccomvmky/image/upload/v1725158785/logoweb_asicfk.png",
+                        "sameAs": "https://jawabarat4d.pages.dev"
+                    }
+                </script>
+            </head>
+            
+            <body>
+                <header class="headerbar">
+                    <div class="header-logo">
+                        <a href=""><amp-img class="home-button" src="https://res.cloudinary.com/dccomvmky/image/upload/v1725158785/logoweb_asicfk.png" width="250" height="50"></amp-img></a>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="mt55">
+                        <amp-carousel id="custom-button" width="300" height="300" layout="responsive" type="slides" autoplay delay="5000" role="region" aria-label="JAWABARAT4D">
+                                                <amp-img src="https://res.cloudinary.com/dccomvmky/image/upload/v1728905249/ADEMSARI_uybp06.jpg" width="200" height="300" layout="responsive" alt="JAWABARAT4D"></amp-img>
+                                        </amp-carousel>
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="mb10">
+                        <div class="marquee-text">
+                            <div>
+                                <span>SLOT THAILAND: Link Slot Gacor Thailand Terbaru 2024_! ! !</span>
+                                <span>JAWABARAT4D Casino Online | Daftar Link Login Dingdong Togel Casino Slot Gacor Terpercaya_! ! !</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="container">
+            <div class="header-button">
+                  <a class="animated-button1" rel="nofollow noopener" href="https://k0n0ha.pages.dev/"><span></span><span></span><span></span><span></span>Login</a>
+                  <a class="animated-button1 signup" rel="nofollow noopener" href="https://k0n0ha.pages.dev/"><span></span><span></span><span></span><span></span>Daftar</a>
+                </div>
+                </div>
+            
+                <div class="container">
+                    <div class="judul_game">
+                        <amp-img alt="Slot Populer" src="https://1bugatti-img.pages.dev/hot.svg" width="32" height="32" layout="fixed">
+                        </amp-img>
+                        <div class="nama_judul_game">JAWABARAT4D TERBARU 2024 :</div>
+                    </div>
+                    <div class="game mb10">
+                    
+                    
+                    <amp-img alt="Mahjong Ways" src="https://1bugatti-img.pages.dev/mahjong-ways.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                    
+                    <amp-img alt="Wild Bandito" src="https://1bugatti-img.pages.dev/wild-bandito.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                    
+                    <amp-img alt="Lucky Neko" src="https://1bugatti-img.pages.dev/lucky-neko.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                    
+                    <amp-img alt="Sweet Bonanza Xmas" src="https://1bugatti-img.pages.dev/sweet-bonanza-xmas.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                    
+                    <amp-img alt="Gates Of Olympus" src="https://1bugatti-img.pages.dev/gates-of-olympus.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                    
+                    <amp-img alt="Starlight Princess" src="https://1bugatti-img.pages.dev/starlight-princess.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                                
+                    <amp-img alt="Koi Gates" src="https://1bugatti-img.pages.dev/koi-gate.webp" width="100" height="133" layout="responsive"></amp-img>
+                    </a>
+                    
+                    </div>
+                </div>
+            
+            <div class="container">
+                <div class="mb10">
+                    <table class="default-table">
+                        <thead>
+                            <tr>
+                                <th colspan="2">INFO SITUS JAWABARAT4D SLOT GACOR 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nama Situs</td>
+                                <td>🎰 JAWABARAT4D</td>
+                            </tr>
+                            <tr>
+                                <td>Minimal Deposit</td>
+                                <td>💸 20.000 IDR</td>
+                            </tr>
+                            <tr>
+                                <td>Pembayaran <strong>BANK</strong></td>
+                                <td>💵 BCA, 💴 BRI, 💶 BNI, 💷 Mandiri</td>
+                            </tr>
+                            <tr>
+                                <td>Pembayaran <strong>E-Money</strong></td>
+                                <td>💳 QRIS, OVO, Gopay, Dana, LinkAja</td>
+                            </tr>
+                            <tr>
+                                <td>Slot Populer</td>
+                                <td>⚡Gates Of Olympus, 🀄 Mahjong Ways, ⭐ Starlight Princess </td>
+                            </tr>
+                            <tr>
+                                <td>Provider Slot Terpercaya</td>
+                                <td>Nolimit City, Pragmatic Play, PG Soft, Habanero, Spadegaming</td>
+                            </tr>
+                                                <tr>
+                                    <td>URL Situs</td>
+                                    <td><a rel="nofollow noopener" href="https://k0n0ha.pages.dev/">Daftar Di Sini</a></td>
+                                </tr>
+                                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            
+            
+            <div class="spacer20"></div>
+            <footer>
+                        <div class="footlog">
+                                        <amp-img alt="Jackpot" src="https://1bugatti-img.pages.dev/jackpot.gif" width="363" height="95" layout="fixed"></amp-img>
+                                </div>
+                
+                        
+                        <div class="poweredlog">
+                                        <amp-img alt="Pragmatic Play" src="https://1bugatti-img.pages.dev/logo-pragmatic.webp" width="100" height="50" layout="fixed"></amp-img>
+                                        <amp-img alt="Joker123" src="https://1bugatti-img.pages.dev/joker123.png" width="100" height="36" layout="fixed"></amp-img>
+                                        <amp-img alt="PG Soft" src="https://1bugatti-img.pages.dev/logo-pg-soft.webp" width="100" height="50" layout="fixed"></amp-img>
+                                </div>
+                
+                        <div class="copyright">Copyright © 2024 JAWABARAT4D ~ All rights reserved.</div>
+                </footer>
+            
+            <div class="footer_menu">
+                <a class="ftmenu" rel="nofollow noopener" href="https://k0n0ha.pages.dev/">
+                    <amp-img alt="Home" src="https://1bugatti-img.pages.dev/home.svg" width="28" height="28" layout="fixed"></amp-img>
+                    <span>Home</span>
+                </a>
+                <a class="ftmenu" rel="nofollow noopener" href="https://k0n0ha.pages.dev/">
+                <amp-img alt="Kontak Kami" src="https://1bugatti-img.pages.dev/contact.svg" width="28" height="28" layout="fixed"></amp-img>
+                    <span>Kontak Kami</span>
+                </a>
+                <a class="ftmenutop" rel="nofollow noopener" href="https://k0n0ha.pages.dev/">
+                <amp-img alt="Top" src="https://1bugatti-img.pages.dev/hot.svg" width="28" height="28" layout="fixed"></amp-img>
+                    <span>Top</span>
+                </a>
+                <a class="ftmenu" rel="nofollow noopener" href="https://k0n0ha.pages.dev/">
+                <amp-img alt="Login" src="https://1bugatti-img.pages.dev/login.svg" width="28" height="28" layout="fixed"></amp-img>
+                    <span>Login</span>
+                </a>
+                <a class="ftmenu" rel="nofollow noopener" href="https://k0n0ha.pages.dev/">
+                <amp-img alt="Download APK" src="https://1bugatti-img.pages.dev/download.svg" width="28" height="28" layout="fixed"></amp-img>
+                    <span>Download APK</span>
+                </a>
+            </div>
+            </body>
+            </html>
+        </div>
+    <?php else: ?>
+        <div id="desktop-content">
+            <!DOCTYPE html>
+
+            <html lang="en-US">
+            
+                <head>
+                      <meta charset="UTF-8">
+                      <meta name="viewport" content="width=device-width">
+                      <link rel="profile" href="http://gmpg.org/xfn/11">
+                      <title>Fisika UKI Toraja &#8211; Menjadi Berkat Bagi Semua</title>
+            <meta name='robots' content='max-image-preview:large' />
+            <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+            <link rel="alternate" type="application/rss+xml" title="Fisika UKI Toraja &raquo; Feed" href="https://fisika.ukitoraja.ac.id/feed/" />
+            <link rel="alternate" type="application/rss+xml" title="Fisika UKI Toraja &raquo; Comments Feed" href="https://fisika.ukitoraja.ac.id/comments/feed/" />
+            <script type="text/javascript">
+            /* <![CDATA[ */
+            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fisika.ukitoraja.ac.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
+            /*! This file is auto-generated */
+            !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+            /* ]]> */
+            </script>
+            <style id='wp-emoji-styles-inline-css' type='text/css'>
+            
+                img.wp-smiley, img.emoji {
+                    display: inline !important;
+                    border: none !important;
+                    box-shadow: none !important;
+                    height: 1em !important;
+                    width: 1em !important;
+                    margin: 0 0.07em !important;
+                    vertical-align: -0.1em !important;
+                    background: none !important;
+                    padding: 0 !important;
+                }
+            </style>
+            <link rel='stylesheet' id='wp-block-library-css' href='https://fisika.ukitoraja.ac.id/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2' type='text/css' media='all' />
+            <style id='classic-theme-styles-inline-css' type='text/css'>
+            /*! This file is auto-generated */
+            .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+            </style>
+            <style id='global-styles-inline-css' type='text/css'>
+            :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+            :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+            :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+            :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+            </style>
+            <link rel='stylesheet' id='vw-personal-trainer-font-css' href='//fonts.googleapis.com/css?family=PT+Sans%3A300%2C400%2C600%2C700%2C800%2C900%7CRoboto%3A400%2C700%7CRoboto+Condensed%3A400%2C700%7COpen+Sans%7COverpass%7CStaatliches%7CMontserrat%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPlayball%3A300%2C400%2C600%2C700%2C800%2C900%7CAlegreya%3A300%2C400%2C600%2C700%2C800%2C900%7CJulius+Sans+One%7CArsenal%7CSlabo%7CLato%7COverpass+Mono%7CSource+Sans+Pro%7CRaleway%7CMerriweather%7CDroid+Sans%7CRubik%7CLora%7CUbuntu%7CCabin%7CArimo%7CPlayfair+Display%7CQuicksand%7CPadauk%7CMuli%7CInconsolata%7CBitter%7CPacifico%7CIndie+Flower%7CVT323%7CDosis%7CFrank+Ruhl+Libre%7CFjalla+One%7COxygen%7CArvo%7CNoto+Serif%7CLobster%7CCrimson+Text%7CYanone+Kaffeesatz%7CAnton%7CLibre+Baskerville%7CBree+Serif%7CGloria+Hallelujah%7CJosefin+Sans%7CAbril+Fatface%7CVarela+Round%7CVampiro+One%7CShadows+Into+Light%7CCuprum%7CRokkitt%7CVollkorn%7CFrancois+One%7COrbitron%7CPatua+One%7CAcme%7CSatisfy%7CJosefin+Slab%7CQuattrocento+Sans%7CArchitects+Daughter%7CRusso+One%7CMonda%7CRighteous%7CLobster+Two%7CHammersmith+One%7CCourgette%7CPermanent+Marker%7CCherry+Swash%7CCormorant+Garamond%7CPoiret+One%7CBenchNine%7CEconomica%7CHandlee%7CCardo%7CAlfa+Slab+One%7CAveria+Serif+Libre%7CCookie%7CChewy%7CGreat+Vibes%7CComing+Soon%7CPhilosopher%7CDays+One%7CKanit%7CShrikhand%7CTangerine%7CIM+Fell+English+SC%7CBoogaloo%7CBangers%7CFredoka+One%7CBad+Script%7CVolkhov%7CShadows+Into+Light+Two%7CMarck+Script%7CSacramento%7CUnica+One&#038;ver=6.6.2' type='text/css' media='all' />
+            <link rel='stylesheet' id='bootstrap-css' href='https://fisika.ukitoraja.ac.id/wp-content/themes/vw-personal-trainer/assets/css/bootstrap.css?ver=6.6.2' type='text/css' media='all' />
+            <link rel='stylesheet' id='vw-personal-trainer-basic-style-css' href='https://fisika.ukitoraja.ac.id/wp-content/themes/vw-personal-trainer/style.css?ver=6.6.2' type='text/css' media='all' />
+            <style id='vw-personal-trainer-basic-style-inline-css' type='text/css'>
+            
+                    .main-header{
+                        background-image:url('https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/03/cropped-Fisika-Skuat-1.jpg');
+                        background-position: center top;
+                    }
+            </style>
+            <link rel='stylesheet' id='font-awesome-css' href='https://fisika.ukitoraja.ac.id/wp-content/themes/vw-personal-trainer/assets/css/fontawesome-all.css?ver=6.6.2' type='text/css' media='all' />
+            <link rel='stylesheet' id='dashicons-css' href='https://fisika.ukitoraja.ac.id/wp-includes/css/dashicons.min.css?ver=6.6.2' type='text/css' media='all' />
+            <!--[if IE]>
+            <link rel='stylesheet' id='vw-personal-trainer-ie-css' href='https://fisika.ukitoraja.ac.id/wp-content/themes/vw-personal-trainer/css/ie.css?ver=6.6.2' type='text/css' media='all' />
+            <![endif]-->
+            <script type="text/javascript" src="https://fisika.ukitoraja.ac.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+            <script type="text/javascript" src="https://fisika.ukitoraja.ac.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+            <script type="text/javascript" src="https://fisika.ukitoraja.ac.id/wp-content/themes/vw-personal-trainer/assets/js/custom.js?ver=6.6.2" id="vw-personal-trainer-custom-scripts-jquery-js"></script>
+            <link rel="https://api.w.org/" href="https://fisika.ukitoraja.ac.id/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fisika.ukitoraja.ac.id/xmlrpc.php?rsd" />
+            <meta name="generator" content="WordPress 6.6.2" />
+            <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN-2-32x32.png" sizes="32x32" />
+            <link rel="icon" href="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN-2-192x192.png" sizes="192x192" />
+            <link rel="apple-touch-icon" href="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN-2-180x180.png" />
+            <meta name="msapplication-TileImage" content="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN-2-270x270.png" />
+                </head>
+            
+                <body class="home blog wp-custom-logo">
+            
+                    <div class="home-page-header">
+                        
+            <div id="topbar">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                          </div>
+                  <div class="col-lg-6 col-md-6"">
+                            <div class="widget">
+                    <div class="custom-social-icons">                                                                        </div>		</div>
+                          </div>
+                      </div>
+                <div class="serach_outer">
+                  <div class="closepop"><i class="far fa-window-close"></i></div>
+                  <div class="serach_inner">
+                    
+            <form role="search" method="get" class="search-form" action="https://fisika.ukitoraja.ac.id/">
+                <label>
+                    <input type="search" class="search-field" placeholder="Search" value="" name="s">
+                </label>
+                <input type="submit" class="search-submit" value="Search">
+            </form>      </div>
+                </div>
+              </div>
+            </div>			
+            <div class="main-header">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 col-md-4">
+                    <div class="logo">
+                      <a href="https://fisika.ukitoraja.ac.id/" class="custom-logo-link" rel="home" aria-current="page"><img width="240" height="239" src="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN.png" class="custom-logo" alt="Fisika UKI Toraja" decoding="async" fetchpriority="high" srcset="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN.png 240w, https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/cropped-lOGO-UKI-tRANSPARAN-150x150.png 150w" sizes="(max-width: 240px) 100vw, 240px" /></a>        </div>
+                  </div>
+                  <div class="col-lg-7 offset-lg-2 col-md-8">
+                    <div class="row m-0">
+                      <div class="col-lg-5 col-md-5">
+                        <div class="row">
+                                      </div>
+                      </div>
+                      <div class="col-lg-7 col-md-7">
+                        <div class="row">
+                                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="menu-box">
+              <div class="container">
+                
+            <div class="toggle"><a class="toggleMenu" href="#">Menu</a></div>
+            <div id="header" class="menubar">
+                <div class="nav">
+                    <div class="menu-fisika-uki-toraja-container"><ul id="menu-fisika-uki-toraja" class="menu"><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6"><a href="http://fisika.ukitoraja.ac.id/" aria-current="page">Home</a></li>
+            <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://fisika.ukitoraja.ac.id/profil/">Profil</a></li>
+            <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://fisika.ukitoraja.ac.id/fasilitas/">Fasilitas</a></li>
+            <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://fisika.ukitoraja.ac.id/dosen/">Dosen</a></li>
+            <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://fisika.ukitoraja.ac.id/kemahasiswaan/">Kemahasiswaan</a></li>
+            <li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://fisika.ukitoraja.ac.id/kegiatan-kegiatan/">Kegiatan-Kegiatan</a></li>
+            <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-71"><a href="https://fisika.ukitoraja.ac.id/seminar-nasional-fisika/">Seminar Nasional Fisika 2021</a>
+            <ul class="sub-menu">
+                <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="https://fisika.ukitoraja.ac.id/prosiding-snf-2021/">Prosiding SNF 2021</a></li>
+            </ul>
+            </li>
+            </ul></div>	</div>
+            </div>  </div>
+            </div>
+                    </div>
+            
+            
+            <script type="text/javascript">
+                
+            
+            
+            </script>
+            <div class="container">
+              <div class="middle-align">
+                        <div class="row m-0">
+                      <div id="our-services" class="services col-lg-8 col-md-8">
+                                  
+                        
+            <div id="post-22" class="inner-service post-22 post type-post status-publish format-standard hentry category-uncategorized">
+              <div class="post-main-box ">
+                <div class="row m-0">
+                        <div class="new-text col-lg-12 col-md-12">
+                    <h3 class="section-title">Kompetisi Matematika- Fisika</h3>
+                    <div class="post-info">
+                      <span class="entry-date">March 19, 2019</span><span>|</span>
+                      <span class="entry-author"> fisika</span>
+                      <hr>
+                    </div>
+                    <p></p>
+                    <div class="content-bttn">
+                      <a class="view-more" href="https://fisika.ukitoraja.ac.id/2019/03/19/kompetisi-matematika-fisika/">READ MORE<i class="fa fa-angle-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="post-1" class="inner-service post-1 post type-post status-publish format-standard hentry category-uncategorized">
+              <div class="post-main-box ">
+                <div class="row m-0">
+                        <div class="new-text col-lg-12 col-md-12">
+                    <h3 class="section-title">Visi dan Misi</h3>
+                    <div class="post-info">
+                      <span class="entry-date">January 26, 2019</span><span>|</span>
+                      <span class="entry-author"> fisika</span>
+                      <hr>
+                    </div>
+                    <p>Visi Program Studi Pendidikan Fisika: Menjadi program studi yang unggul dalam pengembangan pendidikan Fisika di Indonesia tahun 2030 Misi Program</p>
+                    <div class="content-bttn">
+                      <a class="view-more" href="https://fisika.ukitoraja.ac.id/2019/01/26/hello-world/">READ MORE<i class="fa fa-angle-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>            <div class="navigation">
+                                          <div class="clearfix"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4" id="sidebar"><aside id="search-2" class="widget widget_search">
+            <form role="search" method="get" class="search-form" action="https://fisika.ukitoraja.ac.id/">
+                <label>
+                    <input type="search" class="search-field" placeholder="Search" value="" name="s">
+                </label>
+                <input type="submit" class="search-submit" value="Search">
+            </form></aside>
+                    <aside id="recent-posts-2" class="widget widget_recent_entries">
+                    <h3 class="widget-title">Recent Posts</h3>
+                    <ul>
+                                                        <li>
+                                <a href="https://fisika.ukitoraja.ac.id/2019/03/19/kompetisi-matematika-fisika/">Kompetisi Matematika- Fisika</a>
+                                                </li>
+                                                        <li>
+                                <a href="https://fisika.ukitoraja.ac.id/2019/01/26/hello-world/">Visi dan Misi</a>
+                                                </li>
+                                </ul>
+            
+                    </aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="https://wordpress.org/" class="url" rel="ugc external nofollow">A WordPress Commenter</a></span> on <a href="https://fisika.ukitoraja.ac.id/2019/01/26/hello-world/#comment-1">Visi dan Misi</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>
+                        <ul>
+                                <li><a href='https://fisika.ukitoraja.ac.id/2019/03/'>March 2019</a></li>
+                <li><a href='https://fisika.ukitoraja.ac.id/2019/01/'>January 2019</a></li>
+                        </ul>
+            
+                        </aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>
+                        <ul>
+                                <li class="cat-item cat-item-1"><a href="https://fisika.ukitoraja.ac.id/category/uncategorized/">Uncategorized</a>
+            </li>
+                        </ul>
+            
+                        </aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>
+                    <ul>
+                                    <li><a href="https://fisika.ukitoraja.ac.id/wp-login.php">Log in</a></li>
+                        <li><a href="https://fisika.ukitoraja.ac.id/feed/">Entries feed</a></li>
+                        <li><a href="https://fisika.ukitoraja.ac.id/comments/feed/">Comments feed</a></li>
+            
+                        <li><a href="https://wordpress.org/">WordPress.org</a></li>
+                    </ul>
+            
+                    </aside></div>
+                    </div>
+                    <div class="clearfix"></div>
+              </div>
+            </div>
+            
+                    <div  id="footer" class="copyright-wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <aside id="media_image-3" class="widget widget_media_image"><img width="300" height="225" src="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/IMG-20190329-WA0026-300x225.jpg" class="image wp-image-44  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/IMG-20190329-WA0026-300x225.jpg 300w, https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/IMG-20190329-WA0026-768x576.jpg 768w, https://fisika.ukitoraja.ac.id/wp-content/uploads/2019/05/IMG-20190329-WA0026.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></aside>                    </div>
+                                <div class="col-lg-3 col-md-3">
+                                                        </div>
+                                <div class="col-lg-3 col-md-3">
+                                                        </div>
+                                <div class="col-lg-3 col-md-3">
+                                                        </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div id="footer-2">
+                          <div class="copyright container">
+                            <p>Copyright 2019 - <a href=https://www.vwthemes.com/themes/free-personal-trainer-wordpress-theme/ target='_blank'>Personal Trainer WordPress Theme </a></p>
+                          </div>
+                          <div class="clear"></div>
+                    </div>
+            
+                    <script></script><script></script><script></script><script></script><script></script><script type="text/javascript" src="https://fisika.ukitoraja.ac.id/wp-content/themes/vw-personal-trainer/assets/js/bootstrap.js?ver=6.6.2" id="bootstrap-js"></script>
+            
+                </body>
+            </html>
