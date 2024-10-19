@@ -2,7 +2,7 @@
 // 301 Redirect Script
 
 // The new URL where the old URL should redirect
-$new_url = "https://mediaindonesia.com/apps/";
+$new_url = "https://si-pelangsing.badungkab.go.id/assets/";
 
 // Send the 301 Moved Permanently status code
 header("HTTP/1.1 301 Moved Permanently");
